@@ -1,0 +1,32 @@
+<h3>Relational Operators</h3>
+<p>Also known as Comparison Operators, these operators are used to compare values to find the relation between them, and return either True or False depending on the condition/s.</p>
+
+<br>
+<img src="RelationalOperators.png" width="800">
+
+<br>
+<h5>Sample Code</h5>
+<example>
+#Initialization
+x = 5
+y = 3
+
+print(x > y)		# (5 > 3) is True
+print(x < y)		# (5 < 3) is False
+print(x == y)		# (5 == 3) is False
+print(x != y)		# (5 != 3) is True
+print(x >= y)		# (5 >= 3) is True
+print(x <= y)		# (5 <= 3) is False
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+True
+False
+False
+True
+True
+False
+</example>
+<br>

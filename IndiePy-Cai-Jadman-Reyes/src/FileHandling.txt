@@ -1,0 +1,86 @@
+<h1>File Handling</h1>
+<p>A file is like a single huge string storing a large amount of space. It can either be text or binary files. It has two key properties, namely a filename (preferably one word) and a path (usually in the same folder as the program).</p>
+
+<br>
+<h3>Opening a File</h3>
+<p>We can open a file with the open() function. open() function takes two arguments: the filename of the file in quotation marks and the mode or purpose of opening the file (reading, writing, appending, etc.).</p>
+
+<br>
+<h5>Syntax</h5>
+<example>
+open("filename", "mode")
+</example>
+
+<br>
+<img src="FileHandling.png" width="800">
+
+<br>
+<h3>Creating a File</h3>
+<p>Create a new file by using the writing mode ('w') and store it in a variable. Write in the file by passing strings to the write() method. Afterwards, close the file with close() method to save it.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+# Open a file for writing. Create one if file does not exist.
+file = open("myfile.txt", "w")
+
+# Write something in the file
+file.write("Hello, World!\r")
+for i in range(5):
+    file.write(f"This is line {i}")
+
+# Close file when done to save it  
+file.close()
+</example>
+
+<br>
+<h3>Reading a File</h3>
+<p>First, open the file in read mode then use the read() method to load the content of a file. read() method loads the content as a string to which we can save in a variable. Another method is using the readlines() method which will read the file line by line, thus presenting it in a readable form. readlines() acts like the splitlines() method in strings, returning a list of lines. After reading the file, we must close it with the close() method.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+# Open file for reading.
+file = open("myfile.txt", "r")
+
+# Load and store file content to content variable with readlines()
+content = file.readlines()
+print(content)
+
+# Close file when done
+file.close()
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+['Hello, World!\n', 'This is line 0\n', 'This is line 1\n', 'This is line 2\n', 'This is line 3\n', 'This is line 4\n']
+</example>
+
+<br>
+<h3>Closing a File</h3>
+<p>Closing a file is necessary after handling it to ensure file saving and clean-up. A more efficient way to close files automatically without explicitly calling the close() method is using the with statement.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+with open("myfile.txt") as file:
+    content = file.read()
+    print(content)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Hello, World!
+This is line 0
+This is line 1
+This is line 2
+This is line 3
+This is line 4
+</example>
+
+<br>
+<h5>File Handling References</h5>
+<p>Cabatuan, M. (n.d.). LBYCPA1 Module 5 Dictionaries, Sets, and Files [ipynb]. https://www.guru99.com/reading-and-writing-files-in-python.html</p>
+<br>

@@ -1,0 +1,92 @@
+<h1>Strings</h1>
+<p>Strings are a sequence or group of unicode characters (e.g. letters, numbers, symbols, whitespaces) representing words, sentences, paragraphs, and others. </p>
+
+<br>
+<h5>How to Declare Strings</h5>
+<example>
+variable_name1 = "string literal"
+</example>
+<br>
+<p>Strings are created by enclosing string literals in single quotes or double quotes.</p>
+
+<br>
+<h5>Example: Declaring Strings</h5>
+<example>
+my_string = 'Hello World!'
+name = "Jack"
+
+print(my_string)
+print("Name: ", name)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Hello World!
+Name:  Jack
+</example>
+
+
+<br>
+<h3>Multiline Strings</h3>
+<p>Multiline strings are strings that span multiple lines.</p>
+
+<br>
+<h5>How to Declare Multiline Strings</h5>
+<example>
+variable_name1 = """Line 1 string,
+Line 2 string,
+Line 3 string."""
+
+variable_name2 = '''Line 1 string,
+Line 2 string,
+Line 3 string.'''
+</example>
+
+<br>
+<p>Multiline strings are created by enclosing strings in triple quotes, be it three double quotes or three single quotes. Anything inside the triple quotes is part of the multiline string.</p>
+
+<br>
+<h5>Example: Declaring Multiline Strings with Three Single Quotes</h5>
+<example>
+my_string = '''Hello World!
+Name: Percy Jackson
+Age: 16
+Gender: Male
+'''
+print(my_string)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Hello World!
+Name: Percy Jackson
+Age: 16
+Gender: Male
+</example>
+
+<br>
+<h5>Using Multiline Strings as Block Comments</h5>
+<p>There are two ways to declare block comments or comments that span multiple lines in Python. First is using multiple single-line comments with the hash character (#). Second is using multiline strings as comments. The latter is often used for in-line documentation within the codes and for temporarily disabling a set of codes.</p>
+
+<br>
+<h5>Example: Block Comment</h5>
+<example>
+"""This is the start of a block comment.
+
+This is a sample program for demonstrating using 
+multiline string as a block comment.
+
+This ends the block comment.
+"""
+
+print("Hello")
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Hello
+</example>
+<br>

@@ -1,0 +1,336 @@
+<h1>NumPy</h1>
+
+<br>
+
+<h3>What is Numpy?</h3>
+<p> NumPy is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays. The NumPy package is used to perform different operations.</p>
+
+<br>
+
+<h3>What is ndarray?</h3>
+<p> An array class in Numpy is called an ndarray. Elements in Numpy arrays are accessed by using square brackets and can be initialized by using nested Python Lists.</p>
+
+<br>
+
+<h3>How to import numpy and create ndarray?</h3>
+<p> Numpy can be imported by entering “import numpy as np” and creating an ndarray by entering “arr = np.array([[number],[number]])” </p>
+
+<br>
+
+
+<h3>Example:</h3>
+
+<example>
+import numpy as np
+ 
+# Creating array object
+arr = np.array( [[ 1, 2, 3],
+                 [ 4, 2, 5]] )
+ 
+# Printing type of arr object
+print("Array is of type: ", type(arr))
+ 
+# Printing array dimensions (axes)
+print("No. of dimensions: ", arr.ndim)
+ 
+# Printing shape of array
+print("Shape of array: ", arr.shape)
+ 
+# Printing size (total number of elements) of array
+print("Size of array: ", arr.size)
+ 
+# Printing type of elements in array
+print("Array stores elements of type: ", arr.dtype)
+
+</example>
+
+<br>
+<h3>Output:</h3>
+<example>
+Array is of type:  <class 'numpy.ndarray'>
+No. of dimensions:  2
+Shape of array:  (2, 3)
+Size of array:  6
+Array stores elements of type:  int64
+</example>
+
+
+
+<h3>NumPy - Array Attributes</h3>
+<h3>ndarray.shape</h3>
+<p>An array attribute returns a tuple consisting of array dimensions and also can be used to resize an array.</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+
+import numpy as np 
+a = np.array([[1,2,3],[4,5,6]]) 
+print a.shape
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+(2, 3)
+</example>
+
+<br>
+
+<h3>ndarray.ndim</h3>
+<p>This array attribute returns the number of array dimensions.</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+
+# this is one dimensional array 
+import numpy as np 
+a = np.arange(24) 
+a.ndim  
+
+# now reshape it 
+b = a.reshape(2,4,3) 
+print b 
+# b is having three dimensions
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+[[[ 0,  1,  2] 
+  [ 3,  4,  5] 
+  [ 6,  7,  8] 
+  [ 9, 10, 11]]  
+  [[12, 13, 14] 
+   [15, 16, 17]
+   [18, 19, 20] 
+   [21, 22, 23]]]
+
+</example>
+
+<br>
+
+<h3>numpy.itemsize
+</h3>
+<p>This array attribute returns the length of each element of array in bytes.</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+
+# dtype of array is now float32 (4 bytes) 
+import numpy as np 
+x = np.array([1,2,3,4,5], dtype = np.float32) 
+print x.itemsize
+
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+4
+</example>
+
+<br>
+
+<h3>numpy.empty
+</h3>
+<p>It creates an uninitialized array of specified shape and dtype.
+</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+
+import numpy as np 
+x = np.empty([3,2], dtype = int) 
+print x
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+[[22649312    1701344351] 
+ [1818321759  1885959276] 
+ [16779776    156368896]]
+
+</example>
+
+<br>
+
+<h3>numpy.zeros
+</h3>
+<p>This attribute returns a new array of specified size, filled with zeros.</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+# array of five zeros. Default dtype is float 
+import numpy as np 
+x = np.zeros(5) 
+print x
+
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+[ 0.  0.  0.  0.  0.]
+</example>
+
+<br>
+
+<h3>numpy.ones</h3>
+<p>This attribute returns a new array of specified size and type, filled with ones.
+</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+
+import numpy as np 
+x = np.ones([2,2], dtype = int) 
+print x
+
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+[[1  1] 
+ [1  1]]
+
+</example>
+
+<br>
+
+<h3>numpy.asarray</h3>
+<p>This function is similar to numpy.array except for the fact that it has fewer parameters. This routine is useful for converting Python sequence into ndarray.</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+# convert list to ndarray 
+import numpy as np 
+
+x = [1,2,3] 
+a = np.asarray(x) 
+print a
+
+
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+[1  2  3]
+</example>
+
+<br>
+
+
+<h3>numpy.frombuffer</h3>
+<p>This function interprets a buffer as one-dimensional array. Any object that exposes the buffer interface is used as parameter to return an ndarray.
+</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+
+import numpy as np 
+s = 'Hello World' 
+a = np.frombuffer(s, dtype = 'S1') 
+print a
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+['H'  'e'  'l'  'l'  'o'  ' '  'W'  'o'  'r'  'l'  'd']
+</example>
+
+<br>
+
+<h3>numpy.fromiter
+</h3>
+<p>This function builds an ndarray object from any iterable object. A new one-dimensional array is returned by this function.
+</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+# obtain iterator object from list 
+import numpy as np 
+list = range(5) 
+it = iter(list)  
+
+# use iterator to create ndarray 
+x = np.fromiter(it, dtype = float) 
+
+print x
+
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+[0.   1.   2.   3.   4.]
+
+</example>
+
+<br>
+
+<h3>numpy.linspace</h3>
+<p>This function is similar to arange() function. In this function, instead of step size, the number of evenly spaced values between the interval is specified.
+</p>
+
+<br>
+
+<h3>Example</h3>
+<example>
+# find retstep value 
+import numpy as np 
+
+x = np.linspace(1,2,5, retstep = True) 
+print x 
+# retstep here is 0.25
+
+
+
+</example>
+
+<br> 
+
+<h3>Output</h3>
+<example>
+(array([ 1.  ,  1.25,  1.5 ,  1.75,  2.  ]), 0.25)
+</example>
+
+

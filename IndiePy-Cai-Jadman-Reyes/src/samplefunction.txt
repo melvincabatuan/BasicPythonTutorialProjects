@@ -1,0 +1,21 @@
+<p>1. What's the value of the function below?</p>
+
+<p>def subtract(x,y): return x-y</p>
+
+<p>subtract(1,3)</p>
+<c>b
+<rb>a. 2
+<rb>b. -2
+<rb>c. 4
+<rb>d. 3
+
+
+<br>
+
+<p>2. What's the value of the expression below</p>
+<p>subtract(9,2)+7</p>
+<c>a
+<rb>a. 14
+<rb>b. 11
+<rb>c. 15
+<rb>d. 7

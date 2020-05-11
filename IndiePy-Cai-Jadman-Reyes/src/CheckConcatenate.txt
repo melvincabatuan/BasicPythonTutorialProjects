@@ -1,0 +1,44 @@
+<h3>Checking Strings</h3>
+<p>Sometimes we have to check whether or not a certain character, word, or phrase is present in the string. To do so, we can use the in and not in operators.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+print("hello" in "Hello World!")
+print("hello" not in "Hello World!")
+print("World" in "Hello World!")
+print("World" not in "Hello World!")
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+False
+True
+True
+False
+</example>
+
+<br>
+<h3>String Concatenation</h3>
+<p>Using the plus sign (+), we can concatenate or combine two strings into one.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+a = "Python"
+b = "3"
+
+c = a + b
+print(c)
+
+print(a + " " + b)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Python3
+Python 3
+</example>
+<br>

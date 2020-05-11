@@ -1,0 +1,110 @@
+<h1>String Methods</h1>
+<p>Python has plenty of builtin methods for formatting strings. String methods are attached after the string to be formatted, like str.upper() for example. Some of them do not have parameter values, such as capitalize() and lower(). Note that string methods return a new string that we can save in a new variable, not change the original string and replace it. Of course, these methods do not work for blank/empty strings as there is nothing to format there.</p>
+
+<br>
+<img src="StringMethods1.png" width="800">
+
+<br>
+<h5>Example</h5>
+<example>
+txt = "Hello World!".lower()
+
+print("Given: " + txt)
+print("The number of times letter l occured in the given:", txt.count("l"))
+print("Is the given in lowercase?", txt.islower())
+print("Is the given in alphanumeric?", txt.isalnum())
+print("Does the given end with an exclamation mark?", txt.endswith("!"))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Given: hello world!
+The number of times letter l occured in the given: 3
+Is the given in lowercase? True
+Is the given in alphanumeric? False
+Does the given end with an exclamation mark? True
+</example>
+
+<br>
+<h3>Joining, Splitting, and Replacing Strings</h3>
+
+<br>
+<img src="StringMethods2.png" width="800>
+
+<br>
+<h5>Example</h5>
+<example>
+txt = """cats, dogs, hamsters\nhorses, pigeons, hawks"""
+print(txt, "\n")
+
+# Splits txt at line breaks and returns a list containing them.
+split_line = txt.splitlines()
+print(split_line, "\n")
+
+# Joins split_line list into one string separated by comma-space (, )
+join_txt = ", ".join(split_line)
+print(join_txt, "\n")
+
+# Splits join_txt at comma-space (, ) and returns a list containing them.
+print(txt.split(", "), "\n")
+
+# Replaces the first 3 occurrence of letter s with letter z
+print(join_txt.replace("s", "z", 3), "\n")
+
+# Splits animals into a tuple with three elements (before, separator, after) 
+print("animals".partition("ni"))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+cats, dogs, hamsters
+horses, pigeons, hawks 
+
+['cats, dogs, hamsters', 'horses, pigeons, hawks'] 
+
+cats, dogs, hamsters, horses, pigeons, hawks 
+
+['cats', 'dogs', 'hamsters\nhorses', 'pigeons', 'hawks'] 
+
+catz, dogz, hamzters, horses, pigeons, hawks 
+
+('a', 'ni', 'mals')
+</example>
+
+<br>
+<h3>Alignment</h3>
+<img src="StringMethods3.png" width="800>
+
+<br>
+<h5>Example</h5>
+<example>
+# Justified txt to length of 20 characters by filling in the hyphen character
+print("Hello".ljust(20, "-"))
+print("Hello".rjust(20, "-"))
+txt = "Hello".center(20, "-")
+print(txt, "\n")
+
+# Strip the hyphen character from centered text stored in txt variable
+print(txt.strip("-"))
+print(txt.lstrip("-"))
+print(txt.rstrip("-"))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Hello---------------
+---------------Hello
+-------Hello-------- 
+
+Hello
+Hello--------
+-------Hello
+</example>
+
+<br>
+<h5>Strings References</h5>
+<p>Cabatuan, M. (n.d.). LBYCPA1 Module 4 Strings and Formatting [ipynb]. https://www.w3schools.com/python/python_strings.asp https://towardsdatascience.com/the-basics-of-indexing-and-slicing-python-lists-2d12c90a94cf https://www.sololearn.com/Discuss/230045/does-python-strings-contain-null-0-at-the-end https://realpython.com/python-string-formatting/ https://www.w3schools.com/python/ref_string_replace.asp https://www.w3schools.com/python/ref_string_split.asp https://www.w3schools.com/python/ref_string_join.asp https://www.w3schools.com/python/ref_string_partition.asp https://www.w3schools.com/python/ref_string_splitlines.asp https://www.w3schools.com/python/ref_string_rjust.asp https://www.w3schools.com/python/ref_string_strip.asp </p>
+<br>

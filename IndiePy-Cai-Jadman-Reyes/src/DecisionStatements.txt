@@ -1,0 +1,71 @@
+<h1> Decision Statements <h1>
+<br>
+<h3> If Statement </h3>
+<p> An if statement runs only when a certain condition is satisfied. </p>
+<br>
+
+<h3>Example:</h3>
+
+<example>
+a = 10
+b = 6
+if a > b:
+    print("a is greater than b")
+
+</example>
+<br>
+<h3>Output:</h3>
+<example>
+a is greater than b
+</example>
+
+<br>
+
+<h3> Elif Statement </h3>
+<p> This statement is used when the previous conditions are not true, therefore it will satisfy the elif statement instead. </p>
+<br>
+
+<example>
+
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+
+</example>
+<br>
+<h3>Output:</h3>
+<example>
+a and b are equal
+</example>
+<br>
+<h3> Else Statement </h3>
+<p> The else statement catches anything which isn't caught by the preceding conditions. </p>
+<br>
+
+<example>
+
+
+a = 10
+b = 6
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+</example>
+<br>
+<h3>Output:</h3>
+<example>
+
+a is greater than b
+
+</example>
+
+
+<h3>References</h3>
+<p>https://www.w3schools.com/python/python_conditions.asp </p>

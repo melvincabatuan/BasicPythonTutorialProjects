@@ -1,0 +1,25 @@
+<h>Quiz for Strings Part V</h>
+
+<p>1. A programmer wants to turn a set of strings to lowercase. What method should he use? </p>
+<rb>a. str.islower()
+<rb>b. str.lower()
+<rb>c. str.capitalize()
+<rb>d. str.upper()
+<c>b
+
+<br>
+<p>2.The programmer wants to split a multiline string by line. What method should he use? </p>
+<rb>a. str.split()
+<rb>b. str.splitlines() 
+<rb>c. str.partition()
+<rb>d. str.strip()      
+<c>b
+
+
+<br>
+<p>3. Which of the following is the correct way of joining a list of comma separated strings stored in variable x?   </p>
+<rb>a. ", ".join(x)
+<rb>b. x.join()
+<rb>c. x.join(", ")
+<rb>d. "".join(x)
+<c>a

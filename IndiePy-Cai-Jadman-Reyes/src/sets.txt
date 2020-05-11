@@ -1,0 +1,47 @@
+<h1>Sets</h1>
+<br>
+<h5>What are sets?</h5>
+<p>Similar to what is taught in highschool algebra, a set is a collection of unique, unordered and unindexed elements written inside curly brackets.</p>
+<br>
+<h5>Accessing and Changing Set Items</h5>
+<p>Set elements cannot be accessed by index since they are unordered items having no index. </p>
+<p>Set elements cannot be modified, however, new set items could be added using add() and update().</p>
+<br>
+
+<h5>Length of Set</h5>
+<p>Use the len() function to get the length of a set.</p>
+<br>
+
+<h5>Remove Set Elements</h5>
+<p>Uset the remove() method or discard() method to remove an item in a set. The pop() method could also be used, however, this removes the last item in a set. Remember, the sets are unindexed, so the last item is not generally known. The clear() method deletes the entire set elements. </p>
+<br>
+
+<h3>Set Operations</h3>
+<br>
+
+<h5>Union<h5>
+<img src="union.png">
+<p>Union of two sets is the set of all elements from both sets. </p>
+<p>Union is performed using the union() method. Same can be accomplished using | operator</p>
+<br>
+
+<h5>Intersection</h5>
+<img src="intersection.png">
+<p>Intersection of two is sets is the set of common elements from both sets. </p>
+<p>Intersection is performed using the intersection() method or the & operator</p>
+<br>
+
+<h5>Difference</h5>
+<img src="intersection.png">
+<p>When a set (set A for example) is subtracted to another set (set B for example) eg. A-B, the result is a set of elements that are only exclusive in A, but not in B.</p>
+<p>Difference is performed using the - operator. Same can be accomplished using the difference() method. </p>
+<br>
+
+<h5>Symmetric Difference</h5>
+<img src="symetricdifference.png">
+<p>The symmetric difference of two sets is the set of elements both only exclusive to A and B. Meaning, it is the union of both sets excluding the common items between both sets.</p>
+<p>The symmetric difference could be achieved using the ^ operator or the symmetric_difference() operator.</p>
+
+<br>
+<h5>References</h5>
+<p>https://www.programiz.com/python-programming/set </p>

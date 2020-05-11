@@ -1,0 +1,34 @@
+<h>Quiz for Sequence Functions</h>
+
+<p>1. What does len("apple") give?</p>
+<rb>a. apple
+<rb>b. 1
+<rb>c. 5
+<rb>d. 4
+<c>c
+
+<br>
+<p>2. What does min() do? </p>
+<rb>a. Returns the smallest item in a sequence
+<rb>b. Returns the largest item in a sequence
+<rb>c. Returns the average of the items in a sequence
+<rb>d. Returns the middle value of the item in a sequence
+<c>a
+
+
+<br>
+<p>3. What does max() do?</p>
+<rb>a. Returns the smallest item in a sequence
+<rb>b. Returns the largest item in a sequence
+<rb>c. Returns the average of the items in a sequence
+<rb>d. Returns the middle value of the item in a sequence
+<c>b
+
+<br>
+<p>4. What range(1, 10) give?</p>
+<rb>a.  Returns a sequence of integers from 1 to 10, including 1 and 10
+<rb>b. Returns a sequence of integers from 1 to 10, excluding 1 and 10  
+<rb>c. Returns a sequence of integers from 1 to 10, excluding 10
+<rb>d. Returns a sequence of integers from 1 to 10, excluding 1
+<c>c
+

@@ -1,0 +1,34 @@
+<h>Quiz for Try and Except and Exception handling</h>
+
+<p>1. How many except statements can a try-except block have? </p>
+<rb>a. zero
+<rb>b. one
+<rb>c. more than zero
+<rb>d. more than two
+<c>c
+
+<br>
+<p>2. When will the else part of try-except-else be executed? </p>
+<rb>a. always
+<rb>b. when an exception occurs
+<rb>c. when no exception occurs
+<rb>d. when an exception occurs in to except block
+<c>c
+
+<br>
+<p>3. Is the following Python code valid?</p>
+<code>
+try:
+   # Do something
+except:
+   # Do something
+finally:
+   # Do something
+</code>
+<rb>a. no, there is no such thing as finally
+<rb>b. no, finally cannot be used with except
+<rb>c. no, finally must come before except
+<rb>d. yes
+<c>b
+
+<p>Reference: https://www.sanfoundry.com/python-questions-answers-exception-handling/</p>

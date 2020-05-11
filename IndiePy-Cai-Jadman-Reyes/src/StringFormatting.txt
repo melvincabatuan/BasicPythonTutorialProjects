@@ -1,0 +1,126 @@
+<h1>String Formatting</h1>
+<p>We cannot concatenate string and number data types but we can format a string with string interpolation. We can put strings and other data types inside other strings by using markers and converting them to strings.</p>
+
+<br>
+<h3>“Old Style” with the % Operator</h3>
+<p>The old style string interpolation is done by placing %s as a marker inside a string. %s will act as a marker to be replaced by values specified after the string. </p>
+
+<br>
+<h5>Example</h5>
+<example>
+month = "March"
+date = 15
+print("Today is %s %s." % (month, date))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Today is March 15.
+</example>
+
+<br>
+<p>However, the old style occasionally encounters errors in displaying tuples and dictionaries. Thus, although it is still usable in Python 3, it is much recommended to use the new style.</p>
+
+<br>
+<h3>“New Style” with str.format()</h3>
+<p>The new style works similar to the old style with additional formatting. Here, curly brackets ({ }) are used instead of %s as placeholders. The .format() method takes an unlimited amount of arguments, formats them to string and the specified format, and places them in their respective placeholders. Said arguments are the objects to be inserted in a string.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+month = "March"
+date = 15
+print("Today is {} {}.".format(month, date))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Today is March 15.
+</example>
+
+<br>
+<h5>Positional and Keyword Arguments</h5>
+<p>We can also use positional and keyword arguments to rearrange the order of the arguments when displayed without changing the arguments passed to .format(). Positional arguments use the index numbers of the arguments passed to .format() to call them in the original string while keyword arguments use the variables assigned to the object to be inserted.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+itemCode = 102
+quantity = 3
+price = 758.75
+
+# Using Positional Argument
+order = "You ordered {1} pieces of item {0} for a total price of {2} dollars."
+print(order.format(itemCode, quantity, price))
+
+# Using Keyword Argument
+checkout = "Here is your change {change} dollars for {payment} dollars."
+print(checkout.format(payment=1000, change=241.25))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+You ordered 3 pieces of item 102 for a total price of 758.75 dollars.
+Here is your change 241.25 dollars for 1000 dollars.
+</example>
+
+<br>
+<h5>Text Alignment and Decimal Places</h5>
+<p>We can also limit the number of decimal places to be displayed and adjust the text alignment with specific formatting provided by the format method.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+change = 241.25
+
+# No additional formatting
+print("Your change is {}. Thank you and come again.".format(change))
+
+# Format to display 1 decimal place
+print("Your change is {:.1f}. Thank you and come again.".format(change))
+
+# Format to add 20 spacing (by default to the left)
+print("Your change is {:20.2f}. Thank you and come again.".format(change))
+
+# Format to add 20 spacing and left-aligned the object (using <).
+print("Your change is {:<20}. Thank you and come again.".format(change))
+
+# Format to add 20 spacing and center-aligned the object (using ^).
+print("Your change is {:^20}. Thank you and come again.".format(change))
+
+# Format to add 20 spacing and separate the negative sign with the amount specified (using =).
+print("The temperature today is {:=20} degrees Celsius.".format(-2))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Your change is 241.25. Thank you and come again.
+Your change is 241.2. Thank you and come again.
+Your change is               241.25. Thank you and come again.
+Your change is 241.25              . Thank you and come again.
+Your change is        241.25       . Thank you and come again.
+The temperature today is -                  2 degrees Celsius.
+</example>
+
+<br>
+<h3>"Latest" Method with f-strings</h3>
+<p>This method is both powerful and simple. Done by placing the f character before the quotation marks enclosing a string and using curly brackets ({ }) as placeholders. f-strings are simple yet powerful because it allows embedding Python expressions inside string constants and even inline arithmetic.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+payment = 1000
+price = 758.75
+print(f"Here is your change {payment - price} dollars for {payment} dollars.")
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Here is your change 241.25 dollars for 1000 dollars.
+</example>
+<br>

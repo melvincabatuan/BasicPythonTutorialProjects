@@ -1,0 +1,89 @@
+<h3>Break Statement </h3>
+<p>The break statement allows us to terminate the loop midway through it, in other words, break out of the loop. </p>
+
+<br>
+
+<h6>Example: Print the first 5 multiples of 3, stop upon reaching an even multiple</h6>
+
+<example>
+num = 1
+while num <= 5:
+    x = num * 3
+    if x % 2 == 0:	# if the remainder of x divided by 2 is 0
+        break		# exit the loop
+    print(x)
+    num += 1
+</example>
+
+<br>
+
+<h6>Output</h6>
+<example>
+3
+</example>
+
+<br>
+<h3>Continue Statement </h3>
+<p>While the break statement stops the loop completely, the continue statement stops the current iteration and moves to the next one. </p>
+
+<br>
+<h6>Example: Skip letter l in “Hello”</h6>
+<example>
+for ltr in "Hello":
+    if ltr == "l":		# Skips the letter l
+        continue
+    print(ltr)
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+H
+e
+o
+</example>
+
+<br>
+<h3>Pass Statement </h3>
+<p>The pass statement is a null operation, meaning it does nothing when executed. As such, it is commonly used for indicating where a set of statements will eventually be but has yet to be written. </p>
+
+<br>
+<h6>Example</h6>
+<example>
+for ltr in "Hello":
+    pass
+</example>
+
+<p>Since pass does nothing and there is nothing in the loop aside from that, the loop does nothing. </p>
+
+<br>
+<h3>Else Statement </h3>
+<p>The else statement allows us to run a set of statements after the loop ends. </p>
+
+<br>
+<h6>Example: Countdown</h6>
+<example>
+num = 5
+while num >= 0:
+    print(num)
+    num -= 1
+else:
+    print("Happy New Year!")
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+5
+4
+3
+2
+1
+0
+Happy New Year!
+</example>
+
+<br>
+<h6>References</h6> 
+<p>https://www.w3schools.com/python/python_for_loops.asp https://www.w3schools.com/python/python_while_loops.asp https://www.tutorialspoint.com/python/python_loops.htm https://www.tutorialspoint.com/python/python_pass_statement.htm https://www.programiz.com/python-programming/examples/fibonacci-sequence</p>
+<br>

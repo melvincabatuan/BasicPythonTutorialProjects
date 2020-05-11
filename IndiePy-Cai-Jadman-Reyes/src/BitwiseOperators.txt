@@ -1,0 +1,42 @@
+<h3>Bitwise Operators</h3>
+<p>Bitwise operators perform logical operations on a bit by bit basis. They operate on bits and perform bit by bit operation. We know that bit consists of 1s and 0s such that 1 means True and 0 means False.</p>
+
+<br>
+<img src="BitwiseOperators1.png" width="800">
+
+<br>
+<h5>Two’s Complement</h5>
+<p>Two’s complement is used to get the negative of a number in binary form. It is done by flipping all the bits and then adding one. However, the compiler does not add one to the binary form so the output is the negative of a number plus one. For example, the two’s complement of 10 would be -11.</p>
+
+<br>
+<h5>Example</h5>
+<p>Given a = 9 and b = 124. Bit by bit operation means we compare a and b by bits. Thus, we convert the values of a and b to binary (bit form), where a is equivalent to 0000 1001 and b is 0111 1100. Afterwards, the first bit of a and b will be compared, then the second bit of a and b, and so on and so forth.</p>
+
+<br>
+<img src="BitwiseOperators2.png" width="800">
+
+<br>
+<h5>Sample Code</h5>
+<example>
+a = 9
+b = 124
+
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(~ a)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+8
+125
+117
+-10
+</example>
+
+<br>
+<h5>Basic Operators References</h5>
+<p>https://www.tutorialspoint.com/python/python_basic_operators.htm https://www.geeksforgeeks.org/basic-operators-python/ https://axlesoft.wordpress.com/2016/01/21/negative-modulus-in-python/ https://julianpark.me/posts/python-modulo https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301 </p>
+<br>

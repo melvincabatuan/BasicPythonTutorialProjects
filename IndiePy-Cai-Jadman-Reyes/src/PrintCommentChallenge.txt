@@ -1,0 +1,30 @@
+<h3>Challenge Exercise</h3>
+
+<br>
+<p>Write a function that takes an input name and returns the string "Hello, name!", e.g. say_hello("User") returns "Hello, User!".</p>
+<p> So if there is another User with an input name User2, e.g. say_hello("User2") it should return "Hello, User2!"
+
+<br>
+<p>Sample Output: </p>
+<example>
+Hello, User!
+</example>
+
+<hint>
+Use quotation marks and + to add str(name) and "!"
+</hint>
+
+<br>
+<p>Make "print("Hello") disappear</p>
+<p> There should be no output when the program runs but there should be text when it is viewed.
+
+<br>
+<p>Sample Output: </p>
+<example>
+
+</example>
+
+<hint>
+Use a hashtag.
+</hint>
+ 

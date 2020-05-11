@@ -1,0 +1,30 @@
+<h>Quiz for Lists Part I</h>
+
+<p>1. What character/s is used for declaring lists? (No space.)</p>
+<enter>
+<c>[]
+
+<br>
+<p>2. We can access and change list items via __.</p>
+<rb>a. indexing     
+<rb>b. slicing
+<rb>c. all of the above
+<rb>d. none of the above
+<c>c
+
+
+<br>
+<p>3. Which of the following methods can be used to add an item to an existing list?</p>
+<rb>a. append()
+<rb>b. add()
+<rb>c. pop()
+<rb>d. list()
+<c>d
+
+<br>
+<p>4. The following are ways to remove an item in a list except __. </p>
+<rb>a. remove()
+<rb>b. pop()    
+<rb>c. clear()
+<rb>d. del()
+<c>d

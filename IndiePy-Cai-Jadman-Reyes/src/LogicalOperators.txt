@@ -1,0 +1,31 @@
+<h3>Logical Operators</h3>
+<p>Logical operators are words used to combine two or more expressions to form a compound expression.</p>
+
+<br>
+<img src="LogicalOperators1.png" width="800">
+
+<br>
+<h5>Example</h5>
+<img src="LogicalOperators2.png" width="800">
+
+<br>
+<h5>Sample Code</h5>
+<example>
+x = True
+y = False
+
+print(x and y)		
+print(x or y)		
+print(not x)		
+print(not (x or y))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+False
+True
+False
+False
+</example>
+<br>

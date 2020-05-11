@@ -1,0 +1,59 @@
+<h3>Challenge Exercise for NumPy</h3>
+
+<br>
+<p>1. Create the following matrices using NumPy.</p>
+<br>
+<img src="matrices.png" width="400">
+
+<br>
+<p>2. Get AB (multiplication of matrix A and B) and store the answer to variable C.</p>
+<br>
+<p>Output: </p>
+<img src="matrices2.png" width="150">
+
+<br>
+<p>3. Get BA and store the answer to variable C.</p>
+<br>
+<p>Output: </p>
+<img src="matrices3.png" width="170">
+
+<br>
+<p>4. Get A - B and store the answer to variable C.</p>
+
+<br>
+<p>Output: </p>
+<img src="matrices4.png" width="150">
+
+<br>
+<p>5. Get the </p>
+<img src="matrices5_1.png" width="70">
+<p>    and store the answer to variable C.</p>
+<br>
+<p>Output: </p>
+<img src="matrices5_2.png" width="400">
+<hint>
+Use the linalg.inv() function of NumPy.
+</hint>
+
+<br>
+<p>6. Get the </p>
+<img src="matrices6_1.png" width="60">
+<p>    and store the answer to variable C.</p>
+<br>
+<p>Output: </p>
+<img src="matrices6_2.png" width="150">
+<hint>
+Use the transpose() function of NumPy.
+</hint>
+
+<br>
+<p>7. Get the multiplication of A 1st column and B 2nd row.</p>
+<br>
+<p>Output: </p>
+<img src="matrices7.png" width="150">
+<hint>
+Indexing for 2D NumPy arrays looks like [row index, column index]. 
+Use colon : for indicating everything.
+</hint>
+
+<p>Reference: Cabatuan, M. (n.d.). LBYCPA1 Module 1-3 [ipynb].</p>

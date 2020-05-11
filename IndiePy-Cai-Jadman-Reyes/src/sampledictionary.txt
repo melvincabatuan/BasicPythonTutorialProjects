@@ -1,0 +1,14 @@
+<p>1. Let x={'a':1, 'b':2, 'c':3, 'd':4}, what's the value of x['a']</p>
+<rb>a. 1
+<rb>b. 2
+<rb>c. 3
+<rb>d. None of the Above
+<c>a
+
+<br>
+<p>2. Let car = {"brand": "Ford", "model": "Mustang", "year": 1964}. What would be the value of car.get("Toyota")?</p>
+<rb>a. An Error
+<rb>b. None
+<rb>c. Ford
+<rb>d. Mustang
+<c>b

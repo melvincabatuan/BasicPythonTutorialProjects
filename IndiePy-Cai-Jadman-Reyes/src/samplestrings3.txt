@@ -1,0 +1,30 @@
+<h>Quiz for Strings Part III</h>
+
+<p>1. What keyword is used for checking if a certain character is inside a string? </p>
+<enter>
+<c>in
+
+<br>
+<p>2. What character is used for printing “illegal” characters, making them escape characters? </p>
+<enter>
+<c>/
+
+
+
+<br>
+<p>3. Given the code: print(r"50\\50"), what is the output?</p>
+<enter>
+<c>50//50
+
+
+<br>
+<p>4. Given strings x = "Cheshire" and y = "cat", which of the following successfully concatenates said strings with a space between them to variable z? </p>
+<rb>a. z = x + y
+<rb>b. z = x + " " + y
+<rb>c. z = "Cheshire cat"
+<rb>d. z = x * y
+<c>b
+
+<p>5. What escape character is used for printing a new line? </p>
+<enter>
+<c>\n

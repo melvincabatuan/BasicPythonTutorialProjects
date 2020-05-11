@@ -1,0 +1,152 @@
+<h3>Accessing an Element of a String</h3>
+<p>Strings are arrays of characters. Each character or element inside it can be accessed by indexing and slicing.</p>
+
+<br>
+<h3>Indexing</h3>
+<p>Indexing uses square brackets ([ ]) and indices (plural form of index) to access a specific element in a sequence. The basic syntax looks like this: string_name[index].</p>
+
+<br>
+<p>Each character in a given string has a unique number assigned to it. This number is called an index. Index always starts at 0 so the leftmost character (1st character) of a string has an index of 0. The next one, the second character would have an index of 1, and so on and so forth.</p>
+
+<br>
+<img src="Indexing.png">
+
+<br>
+<p>Unlike other programming languages like C and C++, where one could interact with the string terminator (\0) that ends the string, Python does not have an interactable string terminator. However, since Python is written in C, there might be an underlying string terminator. Regardless, we can ignore its existence in Python as it is not accessible.</p>
+
+<br>
+<h5>Example: Indexing</h5>
+<example>
+a = "Hello"
+print(a[0])		# Prints the first character
+print(a[1])		# Prints the second character
+print(a[2])		# Prints the third character
+print(a[3])		# Prints the fourth character
+print(a[4])		# Prints the fifth character
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+H
+e
+l
+l
+o
+</example>
+
+<br>
+<p>If we were to add print(a[5]) to the code, the program would throw out IndexError: list index out of range because this would be calling the sixth element when there is none.</p>
+
+<br>
+<h5>Negative Indexing</h5>
+<p>Python allows accessing a string from the last element with negative indexing. Negative indexing starts with -1 at the end of the string. The second to the last element would have a negative index of -2 and so on and so forth.</p>
+
+<br>
+<h5>Example: Negative Indexing</h5>
+<example>
+a = "Hello"
+print(a[-1])		# Prints the last character
+print(a[-2])		# Prints the second to the last character
+print(a[-3])		# Prints the third to the last character
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+o
+l
+l
+</example>
+
+<br>
+<h3>Slicing</h3>
+<p>Slicing is used to access and return a specific part of a string.</p>
+
+<br>
+<h5>Syntax</h5>
+<example>
+string_name[start:end]
+</example>
+<br>
+<p>where start is the index of the starting element and end is the index of the ending element to which is excluded in the slice. So the output would start at the element of the starting index and end at the element before the ending index.</p>
+
+<br>
+<h5>Example: Slicing Single-line Strings</h5>
+<example>
+a = "Hello World!"
+
+""" Prints the characters from the zeroth index (first character) 
+to the element before the fifth index, so the fifth character """
+print(a[0:5])
+
+""" Prints the characters from the -5 index (fifth to the last character) 
+to the element before the -1 index, so the second to the last character """
+print(a[-6:-1])
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Hello
+World
+</example>
+<br>
+<p>NOTE: To be included in the slice, an element must be at or to the right of the starting index and to the left of the ending index. So print(a[-1:-6]) would output nothing as -2 is to the left of -1, the starting index, and already to the right of -6, the ending index.</p>
+
+<br>
+<h3>Stepping</h3>
+<p>To solve the problem with print(a[-1:-6]), we can add a step value in the slicer.</p>
+
+<br>
+<h5>Syntax</h5>
+<example>
+string_name[start:end:step]
+</example>
+<br>
+<p>Where:</p>
+<p>start is the index of the starting element. By default, it is 0.</p>
+<p>end is the index of the ending element to which is excluded in the slice. By default, it is the last element.</p>
+<p>step is an integer setting the incrementation. It specifies the interval at which elements are included. A negative step reverses the direction of the slicer, so from the usual left to right, it will be reversed to right to left, just like how a negative index works.</p>
+
+<br>
+<h5>Example: Stepping</h5>
+<example>
+a = "Hello World!"
+
+print(a[::2])
+print(a[1:-5:3])
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+HloWrd
+eo
+</example>
+
+<br>
+<h5>Example: Negative Step</h5>
+<example>
+a = "Hello World!"
+
+"""Starts slicing at -1 index (last element) and ends before -6 with a 
+step value of -1, so the slicer moves from the end (right to left) and 
+the start index increments by 1 until it reaches the end index. """
+b = a[-1:-6:-1]
+print(b)
+
+"""Above slice would be similar to the for loop below."""
+b = ""
+for i in range(1, 6):
+	b += a[-i]
+print(b)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+!dlro
+!dlro
+</example>
+<br>

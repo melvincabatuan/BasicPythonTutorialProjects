@@ -1,0 +1,57 @@
+<h3>Assignment Operators</h3>
+<p>Just as the name suggests, assignment operators are operators used to assign a specific value, variable, or expression to another variable as its value.</p>
+
+<br>
+<h5>The Equal Sign</h5>
+<p>There are many kinds of assignment operators but the most commonly used one is the equal sign (=).</p>
+<br>
+<example>
+z = x + y
+</example>
+<br>
+<p>Consider the equation above. The mathematical expression x + y is assigned to the variable z.</p>
+
+<br>
+<h5>Other Assignment Operators</h5>
+<img src="AssignmentOperators.png">
+
+<br>
+<h5>Sample Code</h5>
+<example>
+#Initialization
+x = 5
+
+x += 3              # x = 5 + 3 = 8
+print("Add AND: ", x)
+
+x -= 3              # x = 8 - 3 = 5
+print("Subtract AND: ", x)
+
+x *= 3              # x = 5 * 3 = 15
+print("Multiply AND: ", x)
+
+x /= 3              # x = 15 / 3 = 5.0
+print("Divide AND: ", x)
+
+x //= 3             # x = 5.0 // 3 = 1.0
+print("Floor Division AND: ", x)
+
+x %= 3              # x = 1.0 % 3 = 1.0
+print("Modulus AND: ", x)
+
+x **= 3             # x = 1.0 ** 3 = 1.0
+print("Power AND: ", x)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+Add AND:  8
+Subtract AND:  5
+Multiply AND:  15
+Divide AND:  5.0
+Floor Division AND:  1.0
+Modulus AND:  1.0
+Power AND:  1.0
+</example>
+<br>

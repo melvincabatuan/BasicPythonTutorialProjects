@@ -1,0 +1,12 @@
+<h1>User's Manual</h1>
+<h3>How to Use This Program?</h3>
+<br>
+<p>1. First install and launch Spyder, a Python IDE. See https://www.spyder-ide.org/ for more information.</p>
+<p>2. Open index.py and run the script. Shortcut key is f5.</p>
+<p>3. Read each content carefully.</p>
+<p>4. Navigate by clicking on the buttons located on the table of contents. The order of lessons is from top to bottom.</p>
+<p>5. Answer each sample tests by choosing the right choices or by correctly writing the asked term.</p>
+<p>6. Submit the final answer by clicking the submit button.</p>
+<p>7. Retake the sample tests upon the user’s choice.</p>
+<p>8. Develop and test codes as specified in the challenge exercises.</p>
+<p>9. Take note of the Sample Outputs</p>

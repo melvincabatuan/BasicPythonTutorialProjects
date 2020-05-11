@@ -1,0 +1,28 @@
+<h3>Challenge Exercise for Loop Structure</h3>
+
+<br>
+<p>1. Write a program that displays the first 12 Fibonacci sequences. Fibonacci sequences are a sequence of integers wherein the first two terms are 0 and 1, while the succeeding terms are the sum of the preceding two terms. </p>
+
+
+<br>
+<p>Sample Output: </p>
+<example>
+  Fibonacci sequence:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+
+</example>
+
+<hint>
+nth term = (n-1)th term + (n-2)th term
+</hint>

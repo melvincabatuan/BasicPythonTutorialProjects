@@ -1,0 +1,60 @@
+<h1>Tuples</h1>
+<br>
+<h3>What are Tuples?</h3>
+<p>Tuples are similar to lists, except that tuples are immutable sequences. Meaning, once their values are assigned, they cannot be changed. </p>
+
+<br>
+<h3>How to create tuples?</h3>
+<p>Tuples can be created by placing items inside parenthesis eg. (items) .</p>
+
+<br>
+<h3>Example:</h3>
+
+<example>
+def x():
+	print(x)
+</example>
+
+<example>
+x=(1,2,3,4,5)
+print(x)
+</example>
+
+<br>
+<h3>Output:</h3>
+<example>
+(1,2,3,4,5)
+</example>
+
+<h3>How to Access Tuple Elements</h3>
+<p>Similar to lists, tuple elements can be accessed via indexing and slicing. </p>
+
+<h3>Example</h3>
+<example>
+x=(1,2,3,4,5)
+print(x[0]) #Prints the first element
+print(x[-1]]) #Prints the last element
+print(x[0:2]) #Prints the first two elements
+</example>
+
+<h3>Output</h3>
+<example>
+1
+5
+(1,2)
+</example>
+</h3>
+
+<br>
+<h3>How to delete a Tuple?</h3>
+<p>Since tuple elements are immutable, this also means that tuple elements cannot be deleted. To delete whole tuples, the del keyword could be used. </p>
+
+<br>
+<h3>Tuple Methods</h3>
+<img src="tupletable.jpg" width="800">
+<h3>Turn a sequence into a tuple using tuple() method!!!</h3>
+
+<br>
+<h3>References</h3>
+<p>https://www.programiz.com/python-programming/tuple</p>
+

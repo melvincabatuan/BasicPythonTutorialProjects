@@ -1,0 +1,31 @@
+<h>Quiz for Lists Part II</h>
+
+<p>1. List comprehension is __.</p>
+<rb>a. a combination of the creation of a list and its elements  
+<rb>b. a way to generate list in one line
+<rb>c. all of the above
+<rb>d. none of the above
+<c>c
+
+<br>
+<p>2. Which of the following correctly shorten the following code in one line with list comprehension?</p>
+<code>
+x = []
+for i in range(20):
+    if  i % 3 == 0:
+        x.append(i)
+</code>
+<rb>a. x = [i for in range(20)]     
+<rb>b. x = [i for in range(20) if i % 3 == 0]
+<rb>c. x = [i for in range(20) if i % 3 == 0 append]
+<rb>d. none of the above
+<c>b
+
+
+<br>
+<p>3. Given a 2D list stored in variable x, which of the following is the correct way to call the first element in the second inner list in it?</p>
+<rb>a. x[0]
+<rb>b. x[0:1]
+<rb>c. x[0][1]  
+<rb>d. x[1][0]
+<c>d

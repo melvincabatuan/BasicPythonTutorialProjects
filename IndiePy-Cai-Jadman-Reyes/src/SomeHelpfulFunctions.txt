@@ -1,0 +1,73 @@
+<h1> Some helpful functions <h1>
+<br>
+<h3> dir() Function </h3>
+<p> The dir() function returns all properties and methods of the specified object, without the values.
+This function will return all the properties and methods, even built-in properties which are default for all objects. </p>
+
+<h6>Example:</h6>
+
+<example>
+dir(object)
+</example>
+<br>
+<h6>Output:</h6>
+<example>
+
+The object you want to see the valid attributes of
+
+</example>
+
+<br>
+
+<h3> help() Function </h3>
+<p> The python help function is used to display the documentation of modules, functions, classes, keywords etc. </p>
+<br>
+
+<h6> Example </h6>
+<example>
+help(object)
+</example>
+<br>
+
+<h3> type() Function </h3>
+<p> The type() method returns the class type of the argument(object) passed as parameter. The type() function is mostly used for debugging purposes. Two different types of arguments can be passed to type() function, single and three arguments. If a single argument type(obj) is passed, it returns the type of the given object. If three arguments type(name, bases, dict) is passed, it returns a new type object. </p>
+
+<h6>Example:</h6>
+
+<example>
+
+print(type([]) is list)
+  
+print(type([]) is not list)
+  
+print(type(()) is tuple)
+  
+print(type({}) is dict)
+  
+print(type({}) is not list)
+
+</example>
+<br>
+<h6>Output:</h6>
+<example>
+
+
+True
+False
+True
+True
+True
+
+</example>
+
+<br>
+
+
+
+
+<h3>References</h3>
+<p>https://www.w3schools.com/python/ref_func_dir.asp </p>
+<p>https://www.geeksforgeeks.org/help-function-in-python/ </p>
+<p>https://www.geeksforgeeks.org/python-type-function/ </p>
+
+

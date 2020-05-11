@@ -1,0 +1,85 @@
+<h3>Multidimensional Lists</h3>
+<p>Multidimensional lists are lists inside other lists.</p>
+
+<br>
+<h3>Example:</h3>
+<example>
+
+myList = [[1, 2, 3], ["cat", "dog", "bird"], ["meow", "bark", "tweet"]]
+
+print(myList[0])
+print(myList[0][2], "\n")
+
+for i in myList:	# Each item in the outer list
+    for j in i:	# Each item in the inner list
+        print(j)
+</example>
+
+<br>
+<h3>Output:</h3>
+<example>
+
+[1, 2, 3]
+3 
+
+1
+2
+3
+cat
+dog
+bird
+meow
+bark
+tweet
+</example>
+
+<br>
+<h3>List Comprehension</h3>
+<p>List comprehension is a way to generate a list in one line. It combines the creation of an empty list, the for loop, and the creation of new elements, and automatically appends them, all in one line.</p>
+
+<br>
+<h3>Syntax</h3>
+<example>
+variable = [expression for loop condition]
+</example>
+
+<br>
+<h3>Example: Generating List without List Comprehension</h3>
+<example>
+# Generate a list containing 10 multiples of 3
+myList = []
+for i in range(1, 11):
+    myList.append(i*3)
+print(myList)
+</example>
+
+<br>
+<h3>Output:</h3>
+<example>
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+</example>
+
+<br>
+<h3>Example: List Comprehension with Condition</h3>
+<example>
+
+# Generate a list containing even multiples of 3
+myList = [i*3 for i in range(1, 11) if i % 2 == 0]
+print(myList)
+</example>
+
+<br>
+<h3>Output:</h3>
+<example>
+[6, 12, 18, 24, 30]
+</example>
+
+<br>
+<h3>Convert other sequences to list with list() method!</h3>
+
+<br>
+<h3>References for Lists</h3>
+<p>https://www.w3schools.com/python/python_lists.asp</p>
+<p>https://www.geeksforgeeks.org/multi-dimensional-lists-in-python/</p>
+<p>https://www.programiz.com/python-programming/list-comprehension</p>
+

@@ -1,0 +1,151 @@
+<h1>Dictionaries</h1>
+<p>Dictionaries are unordered sets of key-value pairs. </p>
+<br>
+<h5>How to Declare Dictionaries</h5>
+<example>
+my_dictionary={key:value}
+</example>
+<p>A dictionary is created by placing key value-pairs inside curly braces {} separated by commas. While values can be of any data type and repeatable, the keys must be of immutable type (numbers, strings or tuples) and must be unique. </p>
+<br>
+
+<h5>Example: Declaring Dictionaries</h5>
+<example>
+userList={“User” : ”John”, “Password”: ”Password123”}
+fruits={1: “apple”, 2: ”pear”, 3: “mango”}
+words={1:[2,3,4], 2: ”list”}
+</example>
+<br>
+
+<h5>Accessing Dictionary Values</h5>
+<p>A dictionary value is used by accessing the dictionary key. Key can be used with the get() method or inside square brackets. The difference between them is that if the item does not exist within the dictionary, the get() method will return None, while using the square brackets will result to an error. </p></p>
+<br>
+<h5>Example: Accessing Dictionary Values</h5>
+<example>
+userList [“User”]
+userList.get(“Password”)
+userList.get(“Admin”)
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+John
+Password123
+None
+</example>
+<br>
+
+<h5>Modifying/ Adding New Dictionary Values</h5>
+<p>Using the assignment operator, a dictionary value could be added or modified. Simply reference the key and assign it to a value.  If the key is pre-existing, the value gets updated. Else if a new key is inputted, the new value-pair is added to the dictionary. </p>
+<br>
+
+<h5>Example: Modifying Dictionary Values</h5>
+<example>
+userList [“User”]=”Fred”
+userList [“Password”]=”NewPassword”
+userList [“Age”]=30
+userList [“Hobbies”]=[“Sports”, “Arts and Crafts”, “Cooking”]
+print(userList)
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+{“User” : ”Fred”, “Password”: ”NewPassword”, “Age”:30, “Hobbies”:[“Sports”, “Arts and Crafts”, “Cooking”]}
+</example>
+<br>
+
+<h5>Deleting Dictionary Key Values</h5>
+<p>Individual dictionary key-values could be deleted by simply using the del keyword. </p>
+<br>
+<h5>Example</h5>
+<example>
+del userList [“Age”]
+del userList [“Hobbies”]
+print(userList)
+</example>
+
+<h5>Output</h5>
+<example>
+{“User” : ”Fred”, “Password”: ”NewPassword”}
+</example>
+<br>
+
+<h5>Looping Through Dictionary Key and Values</h5>
+<p>Using the for loop, dictionary values could be iterated.</p>
+
+<h5>Example</h5>
+<example>
+x={1:2, 3:4, 5:6, 7:8}
+
+print(“Iterating Over Dictionary by Default”)
+for i in x:
+    print(“%d: %d” % (i, x[i]))
+
+print(“Iterating Over Dictionary Key and Values”)
+for key, value in x.items():
+    print(“%s: %s” % (key, value))
+
+print(“Iterating Over Dictionary Keys”)
+for key in x.keys():
+    print(“Dictionary Key: %s” % key)
+
+print(“Iterating Over Dictionary Values”)
+for value in x.values():
+    print(“Dictionary Values: %s” % value)
+
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+Iterating Over Dictionary by Default
+1: 2
+3: 4
+5: 6
+7: 8
+
+Iterating Over Dictionary Key and Values
+1: 2
+3: 4
+5: 6
+7: 8
+
+Iterating Over Dictionary Keys
+Dictionary Key: 1
+Dictionary Key: 3
+Dictionary Key: 5
+Dictionary Key: 7
+
+Iterating Over Dictionary Values
+Dictionary Values: 2
+Dictionary Values: 4
+Dictionary Values: 6
+Dictionary Values: 8
+</example>
+
+<br>
+
+
+<h5>Dictionary Comprehensions</h5>
+<p>Like list comprehensions, dictionary comprehensions are elegant and shorthand ways to declare a dictionary. It consists of a key:value followed by a for statement iterating over an iterable. </p>
+<br>
+<h5>Example</h5>
+<example>
+multiplesOfThree={key:key*3 for key, value in range(1,11)}
+print(multiplesOfThree)
+
+item=[i for i in range(1, 6)]
+task=[“Eat”, “Sleep”, “Cook”, “Do Chores”, “Do Homework”, “Bake Bread”]
+toDoList={key:value for key, value in zip(item, task)}
+
+print(toDoList)
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+{1: 3, 2: 6, 3: 9, 4: 12, 5: 15, 6: 18, 7: 21, 8: 24, 9: 27, 10: 30}
+{1: 'Eat', 2: 'Sleep', 3: 'Cook', 4: 'Do Chores', 5: 'Do Homework'}
+</example>
+

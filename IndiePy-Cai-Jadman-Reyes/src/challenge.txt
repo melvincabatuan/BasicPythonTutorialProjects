@@ -1,0 +1,59 @@
+<h3>Challenge Exercise</h3>
+
+<br>
+<p>1. This is challenge number two.</p>
+<p>Another description for challenge number two</p>
+
+<br>
+<p>Sample Output: </p>
+<example>
+This is the output.
+</example>
+
+<hint>
+This is a hint message. Hint hint.
+A hint message box.
+</hint>
+
+<br>
+<p>2. Create an equation to solve for the square root of a given number stored in variable x. </p>
+
+<br>
+<p>Sample Output 1: </p>
+<example>
+Given: x = 81
+Output: 9.0
+</example>
+
+<br>
+<p>Sample Output 2: </p>
+<example>
+Given: x = 10
+Output: 3.1622776601683795
+</example>
+
+<hint>
+A square root of a number is equivalent to the number raised to half power.
+</hint>
+ 
+<br>
+<p>3. Find the area of a triangle given the base (b) and height (h). </p>
+
+<br>
+<p>Sample Output 1: </p>
+<example>
+Given: b = 2, h = 6
+Output: 6.0
+</example>
+
+<br>
+<p>Sample Output 2: </p>
+<example>
+Given: b = 31, h = 22.4
+Output: 347.2
+</example>
+
+<hint>
+Area of a triangle is base times height all over 2.
+</hint>
+ 

@@ -1,0 +1,6 @@
+<p>1. Let x = lambda a, b, c : a + b + c. What's the value of x(5, 6, 2)?</p>
+<rb>a. 12
+<rb>b. 13
+<rb>c. 11
+<rb>d. 10
+<c>b

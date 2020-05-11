@@ -1,0 +1,38 @@
+<h1>Quick Introduction to Why Python</h1>
+<br>
+<h3>What is Python?</h3>
+<p>Python is a popular programming language. It has a myriad of uses.</p>
+<p>It is used for:</p>
+<p>-web development (server-side),</p>
+<p>-software development,</p>
+<p>-mathematics,</p>
+<p>-system scripting</p>
+<br>
+
+<h3>What can Python do?</h3>
+<p>-Python can be used on a server to create web applications. </p>
+<p>-Python can be used alongside software to create workflows. </p>
+<p>-Python can connect to database systems. It can also read and modify files. </p>
+<p>-Python can be used to handle big data and perform complex mathematics. </p>
+<p>-Python can be used for rapid prototyping, or for production-ready software development.</p>
+<br>
+<h3>Why Python?</h3>
+<p>-Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc). </p>
+<p>-Python has a simple syntax similar to the English language. </p>
+<p>-Python has syntax that allows developers to write programs with fewer lines than some other programming languages. </p>
+<p>-Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick. </p>
+<p>-Python can be treated in a procedural way, an object-orientated way or a functional way. </p>
+<br>
+<h3>Why Python Even If I don’t Have a CS Degree?</h3>
+<p>-It’s good to have a bit of knowledge in programming</p>
+<p>-You’ll know how computer stuff works</p>
+<p>-Programming may help you in your future careers</p>
+<p>-You could see the world in a new perspective after programming</p>
+<br>
+<h3>Python Syntax compared to other programming languages</h3>
+<p>-Python was designed for readability, and has some similarities to the English language with influence from mathematics. </p>
+<p>-Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses. </p>
+<p>-Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose. </p>
+
+<h3>Reference</h3>
+<p>https://www.w3schools.com/python/python_intro.asp</p>

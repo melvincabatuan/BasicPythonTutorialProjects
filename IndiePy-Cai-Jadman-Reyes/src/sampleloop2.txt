@@ -1,0 +1,25 @@
+<h>Quiz for  Loops Part II</h>
+
+<p>1. __ statement skips the current iteration and moves to the next one.</p>
+<rb>a. Break
+<rb>b. Continue 
+<rb>c. Pass
+<rb>d. Else
+<c>b
+
+<br>
+<p>2. A null statement often used in place for where a set of codes will be.</p>
+<rb>a. Break
+<rb>b. Continue 
+<rb>c. Pass
+<rb>d. Else
+<c>c
+
+<br>
+<p>3. A programmer is writing a loop for his program. He wants to terminate his loop under a set of conditions. What statement should he use?</p>
+<rb>a. Break
+<rb>b. Continue 
+<rb>c. Pass
+<rb>d. Else
+<c>a
+

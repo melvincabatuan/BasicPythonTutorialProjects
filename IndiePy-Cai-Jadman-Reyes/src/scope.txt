@@ -1,0 +1,90 @@
+<h1>Python Scope</h1>
+<p>A variable is only available from inside the region it is created. This is called scope.</p>
+<br>
+
+<h5>Local Scope</h5>
+<p>A variable created inside a function can only be used inside the function.</p>
+<br>
+
+<h5>Examples:</h5>
+<example>
+def my_func():
+    x = 10
+    print("Value inside function:",x)
+
+my_func()
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+10
+</example>
+<br>
+
+<h5>Global Scope</h5>
+<p>A variable created in the main body of the python code is a global variable and belongs to any scope. Global variables are available within any scope global, or local. </p>
+
+<h5>Examples:</h5>
+<example>
+x=20
+
+def my_func():
+    print(x)
+
+my_func()
+print(x)
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+20
+20
+</example>
+
+<br>
+
+<h5>Global and Local Variables</h5>
+<p>If a function has local and global variables with the same name, python will treat these as separate variables.</p>
+
+<example>
+x = 300
+def my_func():
+  x = 200
+  print(x)
+
+myfunc()
+
+print(x)
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+200
+300
+</example>
+<br>
+
+<h5>Turning Local Variables Into Global Variables</h5>
+<p>To turn local variables into global variables, the global keyword is used. Make sure that the variable is predeclared on the global scope</p>
+<br>
+
+<example>
+x = 300
+
+def my_func():
+  global x = 200
+
+print(x)
+my_func()
+print(x)
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+300
+200
+</example>

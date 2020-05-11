@@ -1,0 +1,26 @@
+<h>Quiz for Strings Part I</h>
+
+<p>1. The following are different ways of declaring strings except:</p>
+<rb>a. x = "Hello"
+<rb>b. x = 'Hello'
+<rb>c. x = """Hello"""
+<rb>d. x = ""Hello""
+<c>d
+
+<br>
+<p>2. Which of the following is the correct way of declaring block comments? </p>
+<rb>a. "Hello"
+<rb>b. 'Hello'
+<rb>c. """Hello"""
+<rb>d. ""Hello""
+<c>c
+
+
+<br>
+<p>3. Which of the following is the correct way of declaring multiline strings?</p>
+<rb>a. '''Hello'''
+<rb>b. x = """Hello"""
+<rb>c. All of the above
+<rb>d. None of the above
+<c>b
+

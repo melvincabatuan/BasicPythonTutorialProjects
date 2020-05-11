@@ -1,0 +1,133 @@
+<h>Assessment Test</h>
+<p>This is an assessment test to assess your knowledge and understanding of the Python programming language. Based on the results, the program will recommend a lesson fitting for your level. Nevertheless, you are free to choose which lesson you want to learn first.</p>
+
+<p>1. What is the value of c in the expressions below?</p>
+<code>
+1. a=1
+2. a=2+5
+3. a=3
+4. b=2
+5. c=a+b
+</code>
+<rb>a) 7
+<rb>b) 5
+<rb>c) 3
+<rb>d) Not in the Choices
+<c>b
+
+<br>
+<p>2. What is the value of b in the program below?</p>
+<code>
+1. a,b,c =1,2,3
+2. a=b 
+3. b=c 
+4. c=a 
+5. b=c
+</code>
+<rb>a) 1
+<rb>b) 2
+<rb>c) 3
+<rb>d) Not in the Choices
+<c>b
+
+<br>
+<p>3. What is the value of the logical expression below?</p>
+<code>
+True or 0 and False or 1 and True
+</code>
+<rb>a) True
+<rb>b) False
+<rb>c) Invalid Statement
+<rb>d) Not in the Choices
+<c>a
+
+<br>
+<p>4. What is the value of x in the python code below?</p>
+<code>
+x=0
+if x or 1:
+    x=1//2
+else:
+    x=2/2
+</code>
+<rb>a) 0.5
+<rb>b) 1
+<rb>c) 0
+<rb>d) 2
+<c>c
+
+<br>
+<p>5. What is the output of the Python expression below?</p>
+<code>
+print("Hello \\n World!")
+</code>
+<rb>a) "Hello \n World!"
+<rb>b) "Hello World!"
+<rb>c) "Hello \ World!"
+<rb>d) Not in the Choices
+<c>a
+
+<br>
+<p>6. What is the value of variable 'tomato'?</p>
+<code>
+1. tomato=4
+2. tomatoes=2
+3. Tomato=3
+4. tomato=tomato+1
+</code>
+<rb>a) 4
+<rb>b) 2
+<rb>c) 3
+<rb>d) 5
+<c>d
+
+<br>
+<p>7. In the Python expression below, what is the value of x?</p>
+<code>
+x="1" + "2" + "4"
+</code>
+<rb>a) "1" + "2" + "4"
+<rb>b) 7
+<rb>c) "7"
+<rb>d) "124"
+<c>d
+
+<br>
+<p>8. What is the value of function 'function(x)' when x is 5?</p>
+<code>
+def function(x):
+    if x == 1:
+        return 1
+    else:
+        return (x * function(x-1))
+</code>
+<rb>a) 120
+<rb>b) 24
+<rb>c) 100
+<rb>d) Not in the Choices
+<c>a
+
+<br>
+<p>9. In the python loop below, at what value of i does the loop stop printing?</p>
+<code>
+i=0
+while i<10:
+  i+=1
+  print(i)
+</code>
+<rb>a) 9
+<rb>b) 10
+<rb>c) 8
+<rb>d) Other Values
+<c>a
+
+<br>
+<p>10. In the loop from the previous question, what is the last value of i?</p>
+<code>
+i=0
+while i<10:
+  i+=1
+  print(i)
+</code>
+<enter>
+<c>10

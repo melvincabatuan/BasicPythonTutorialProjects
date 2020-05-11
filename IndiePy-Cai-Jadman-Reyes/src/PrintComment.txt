@@ -1,0 +1,33 @@
+<h1> Print <h1>
+<p> To print is to show the output on the screen. </p>
+<br>
+
+<h3>Example:</h3>
+
+<example>
+print("Hello World!")
+</example>
+<br>
+<h3>Output:</h3>
+<example>
+Hello World!
+</example>
+
+<br>
+
+<h1> Comment </h1>
+<p> Comments are used to help explain the thought process of the programmer, and it is used to identify where an error could be, if there is one. Comments do not show in the output and do not affect the code in any way. </p>
+<br>
+
+<example>
+print(“this is not a comment”)               # this is a comment
+</example>
+<br>
+<h3>Output:</h3>
+<example>
+this is not a comment
+</example>
+
+
+<h3>References</h3>
+<p>https://en.wikipedia.org/wiki/Comment_(computer_programming) </p>

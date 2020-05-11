@@ -1,0 +1,37 @@
+<h>Quiz for Arithmetic and Assignment Operators</h>
+
+<p>1. What does the % operator do?</p>
+<rb>a. Returns the quotient
+<rb>b. Returns the remainder
+<rb>c. Returns the floored quotient
+<rb>d. Returns the percentage
+<c>b
+
+<br>
+<p>2. ___ operator gets the integral division.</p>
+<enter>
+<c>//
+
+<br>
+<p>3. What is the output of 9**3?</p>
+<rb>a. 3
+<rb>b. 27
+<rb>c. 81
+<rb>d. 0
+<c>c
+
+<br>
+<p>4. What is the function of the = operator?</p>
+<rb>a. Equating an expression to a variable
+<rb>b. Assigning a value to a another variable
+<rb>c. All of the above
+<rb>d. None of the above
+<c>c
+
+<br>
+<p>5. Given x = 5, what does x += 5 give?</p>
+<rb>a. 5
+<rb>b. 10
+<rb>c. 0
+<rb>d. 25
+<c>b

@@ -1,0 +1,37 @@
+<h>Quiz for Arithmetic and Assignment Operators</h>
+
+<p>1. What is 2 != -1?</p>
+<rb>a. True
+<rb>b. False
+<rb>c. 2
+<rb>d. -1
+<c>b
+
+<br>
+<p>2. The relational operator for equal to is __.</p>
+<enter>
+<c>==
+
+<br>
+<p>3. The following are true for relational operators except __.</p>
+<rb>a. Relational operators are used for comparing operands.
+<rb>b. Relational operators are used for finding the relation between operands.
+<rb>c. All relational operators have equal signs in them.
+<rb>d. Relational operators are also known as Comparison operators.
+<c>c
+
+<br>
+<p>4. The following are true for logical operators except __.</p>
+<rb>a. Logical operators are used to combine two or more expressions to form compound expressions.
+<rb>b. Logical AND returns True only when both operands are True.
+<rb>c. Logical OR returns False when one of the operands is False.
+<rb>d. Logical NOT returns the opposite of the operands.
+<c>c
+
+<br>
+<p>5. If x = 1 and y = 0, what is the value of (x and y)?</p>
+<rb>a. 1
+<rb>b. 0
+<rb>c. True
+<rb>d. False
+<c>b

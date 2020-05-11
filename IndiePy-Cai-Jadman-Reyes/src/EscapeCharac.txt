@@ -1,0 +1,66 @@
+<h3>Escape Character</h3>
+<p>For “illegal” characters such as double and single quotes that are impossible to put in a string, we need to use escape characters. An escape character starts with a backslash (\) followed by the character you want to insert in the string.</p>
+
+<br>
+<img src="EscapeCharac.png">
+
+<br>
+<h5>Example</h5>
+<example>
+# \' (Single quote) and \" (Double quote)
+print("\"Hello World\"")
+
+# \n (Newline)
+print("New\n")
+print("Line")
+print("\n")
+
+# \r (Carriage Return)
+print("Carriage\r")
+print("Return")
+print("\r")
+
+# \xhh (Hex Value)
+""""hh is a hex value of a character."""
+print("Hex: \x48\x65\x6c\x6c\x6f") 
+
+# \ooo (Octal Value)
+""""ooo is a octal value of a character."""
+print("Octal: \110\145\154\154\157")
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+"Hello World"
+New
+
+Line
+
+
+Carriage
+Return
+
+Hex: Hello
+Octal: Hello
+</example>
+
+<br>
+<p>Notice how \n outputs a newline, like pressing Enter key twice. As print automatically prints the output in a newline, when we call \n only, it would create a newline after its line. As shown in the output after "Line", there are two empty lines. Compared to \n, \r acts like an Enter key. It places the succeeding output on the next line regardless of being in the same print statement or not.</p>
+
+<br>
+<h3>Raw Strings</h3>
+<p>Raw strings completely disregards all escape characters and prints any backslash present in a string. It is declared by putting the character r in the front of the double or single quotes enclosing a string.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+print(r'He found Jack\'s pen.\n')
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+He found Jack\'s pen.\n
+</example>
+<br>

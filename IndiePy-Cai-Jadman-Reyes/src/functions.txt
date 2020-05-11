@@ -1,0 +1,93 @@
+<h1>Functions</h1>
+<h5>What is a Function in Python?</h5>
+<p>A function is a reusable block of code used to perform specific tasks in python.</p>
+<h5>How to Declare Functions?</h5>
+<example>
+def function_name(parameters):
+    """docstring"""
+    statement(s)
+</example>
+
+<p>The def keyword declares the start of the function</p>
+<p>The function name must be unique. The name follows the same rule as writing identifiers in python</p>
+<p>The parameters (arguments) are values that are passed to the function. They are optional.</p>
+<p>A colon (:) marks the end of the function header</p>
+<p>Optional Documentation String (docstring) is used to describe what the function does</p>
+<p>Python statements are what the function does/ executes.</p>
+<p>An optional return statement is used to return a value from a function</p>
+
+<h5>Examples</h5>
+
+<h5>Function Without Parameters</h5>
+
+<example>
+
+#This Defines the Function
+def DisplayHelloWorld():
+print(“Hello, World! ”)
+
+#This Calls the Function
+DisplayHelloWorld() #Will Display the Text (“Hello, World! ”)
+
+</example>
+
+<h5>Output</h5>
+
+<example>
+Hello, World! 
+</example>
+
+<h5>Function With Parameters</h5>
+
+<example>
+#This Defines the Function
+def Greet(name):
+print(“Hello, ” + name + “!”)
+
+#This Calls the Function
+Greet(“Groot”)
+</example>
+
+<h5>Output</h5>
+
+<example>
+Hello, Groot!
+</example>
+
+<h5>The Return Statement</h5>
+
+<p>The return statement immediately exits the function and returns a value to be used. If there is no expression in the return statement or if the return statement itself is not present inside the function, the function will return the None  object.</p>
+
+<h5>Returning vs Printing</h5>
+<p>Printing just displays the output, while returning gives a value to the function given the parameters.</p>
+
+<h5>Example of a Function With a Return Statement</h5>
+<example>
+def addTwoNumbers(x,y):
+    #This function adds two numbers
+    return x+y
+
+print(addTwoNumbers(1,2)) 
+</example>
+
+<h5>Output</h5>
+
+<example>
+3
+</example>
+
+<h5>Example of a Function With None Being Returned</h5>
+
+<example>
+def DisplayHelloWorld():
+print(“Hello, World! ”)
+
+#The function below will print out “Hello, World!”, but its value will be None
+print(DisplayHelloWorld())
+</example>
+
+<h5>Output</h5>
+<example>
+Hello, World!
+None
+</example>

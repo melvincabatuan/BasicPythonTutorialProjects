@@ -1,0 +1,130 @@
+<h1>Lists</h1>
+<p>Lists are ordered and mutable sequences containing values of same or different data types.</p>
+
+<br>
+<h3>How to create lists?</h3>
+<p>Lists are created by putting items in square brackets [ ].</p>
+
+<br>
+<h6>Example</h6>
+<example>
+myList = ["cat", "dog", "bird"]
+print(myList)
+</example>
+
+<br>
+<h6>Output:</h6>
+<example>
+['cat', 'dog', 'bird']
+</example>
+
+<br>
+<h3>Accessing List Items</h3>
+<p>Like strings, list items can be accessed by referring to their index numbers and slicing them.</p>
+
+<br>
+<h6>Example</h6>
+<example>
+pets = ["cat", "dog", "bird", "fish", "hamster", "horse"]
+print(pets[0])	# Print the first item in pets list
+print(pets[-2])	# Print the second to the last item in pets list
+print(pets[2:-1])
+# Print the items starting from the third one to the last one, excluding the last one
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+cat
+hamster
+['bird', 'fish', 'hamster']
+</example>
+
+<br>
+<h3>Looping through a List</h3>
+<p>We can loop through all items in a list with a for loop. </p>
+
+<br>
+<h6>Example</h6>
+<example>
+# Printing all items in a list
+pets = ["cat", "dog", "bird", "fish"]
+for i in pets:
+    print(i)
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+cat
+dog
+bird
+fish
+</example>
+
+<br>
+<h3>Changing List Item Value</h3>
+<p>We can also change the value of a specific item in the list by calling its index number.</p>
+
+<br>
+<h6>Example</h6>
+<example>
+pets = ["cat", "dog", "bird"]
+pets[2] = "fish"
+print(pets)
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+['cat', 'dog', 'fish']
+</example>
+
+<br>
+<h3>Adding Items to a List</h3>
+<h5>append()</h5>
+<p>We can add items to a preexisting list by using the append() method. Note that append() method only takes one argument, so we can only add one item at a time. </p>
+<br>
+<h5>insert()</h5>
+<p>We can also insert an item at a specific index with the insert() method. insert() method takes two parameters, the index number and the item to be added.</p>
+
+<br>
+<h6>Example</h6>
+<example>
+pets = ["cat", "dog"]	# Create empty list
+pets.append("bird")	# Add "cat" to list
+print(pets)
+pets.insert(1, "fish")	# Add "fish" to index 1
+print(pets)
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+['cat', 'dog', 'bird']
+['cat', 'fish', 'dog', 'bird']
+</example>
+
+<br>
+<h3>Removing Items in a List</h3>
+<p>There are multiple ways to remove an item from a list. Below are some methods that do such.</p>
+<br>
+<img src="lists.png" width="800">
+
+<br>
+<h6>Example</h6>
+<example>
+pets = ["cat", "dog", "bird", "fish", "hamster", "horse"]
+
+pets.remove("fish")
+pets.pop(2)	# Removed "bird"
+del pets[0]	# Removed "cat"
+print(pets)
+</example>
+
+<br>
+<h6>Output</h6>
+<example>
+['dog', 'hamster', 'horse']
+</example>
+<br>

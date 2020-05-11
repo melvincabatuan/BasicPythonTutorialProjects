@@ -1,0 +1,28 @@
+<h>Quiz for  Loops Part I</h>
+
+<p>1. The types of loops in Python are __. </p>
+<rb>a. for loop, while loop, and nested loop
+<rb>b. for loop, while loop, do-while loop, and nested loop
+<rb>c. for loop and while loop
+<rb>d. for loop, while loop, and do-while loop
+<c>for loop, while loop, and nested loop
+
+<br>
+<p>2. For loop is used for __</p>
+<rb>a. iterating a set of code over a specified amount
+<rb>b. iterating over each element in a sequence
+<rb>c. all of the above
+<rb>d. none of the above
+<c>all of the above
+
+<br>
+<p>3. While loop is used for __.</p>
+<rb> performing a set of statements repeatedly over a specified amount
+<rb> performing a set of statements repeatedly as long as the condition is True
+<rb> all of the above
+<rb> none of the above
+<c>performing a set of statements repeatedly as long as the condition is True
+
+<br>
+<h6>References</h6>
+<p>https://www.sanfoundry.com/python-questions-answers-exception-handling/</p>

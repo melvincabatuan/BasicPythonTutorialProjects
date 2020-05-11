@@ -1,0 +1,146 @@
+<h1>Tkinter Widgets</h1>
+<br>
+<h3>What are Widgets</h3>
+
+<p>Widgets are like addons you could add to make your program more interesting. You need to pack a widget for it to be visible.</p>
+<br>
+
+<h3>List of Common Widgets:</h3>
+<p>Button – There is used to generate buttons in tkinter<p>
+<p>Label – This is used to create text or images<p>
+<p>Menu – This is used to create dropdown menus</p>
+<p>Checkbutton – This is used to create checkboxes</p>
+<p>Canvas – This is used to draw shapes and drawings</p>
+<p>Entry – This is used to create textboxes</p>
+<p>Frame – This is used as containers in the tkinter application similar to divs in html</p>
+
+<br>
+
+<h3>Label Widget</h3>
+<br>
+<img src="label.jpg" width="300">
+<br>
+<p>The label widget is used to display single lines of text or images.</p>
+
+<example>
+l1 = tk.Label (root, text="Hello, World!“ font=("Arial Bold", 50))
+l1.pack()
+</example>
+
+<br>
+<h3>Button Widget</h3>
+
+<img src="button1.jpg" width="300">
+<p>The button widget is used to display clickable buttons.</p>
+
+<example>
+bt = tk.Button (root, text="Response", bg="orange", fg="red")
+bt.pack()
+</example>
+
+<br>
+<p>We could add a parameter, command, to add some functionality to the button.</p>
+<img src="clickedbutton.jpg" width="300">
+<example>
+def clicked():
+     l1.configure(text="Button was clicked !!")
+     bt.configure(bg="green", fg="white")
+bt = tk.Button (root, text="Response", bg="orange", fg="red", command=clicked)
+bt.pack()
+</example>
+<br>
+
+<h3>Entry Widget</h3>
+<img src="textbox1.jpg" width="300">
+<br>
+<img src="textbox2.jpg" width="300">
+<br>
+<p>The entry widget is used to take in textual input.</p>
+
+<example>
+txt = tk.Entry(root,width=10)
+ 
+txt.pack()
+ 
+def clicked():
+      res = "Welcome to " + txt.get() 
+      l1.configure(text= res)
+ 
+bt = tk.Button (root, text=“Enter”, command=clicked)
+bt.pack()
+</example>
+
+<br>
+
+<h3>Combobox Widget</h3>
+<img src="combobox.jpg" width="300">
+<p>The combobox widget is used to create dropdown menus.</p>
+<example>
+from tkinter.ttk import *
+combo = Combobox(root)
+combo['values']= (1, 2, 3, 4, 5, "Text")
+combo.current(3)
+combo.grid(column=0, row=0)
+</example>
+
+<br>
+
+<h3>Checkbutton Widget</h3>
+<img src="checkbox.jpg" width="300">
+<p>From the name itself, the check button widget is used to display check buttons</p>
+<example>
+chk_state = tk.BooleanVar()
+chk_state.set (True)
+chk = Checkbutton(root, text='Select', var=chk_state)
+chk.grid(column=0, row=0)
+</example>
+<br>
+<p>Keep in mind that the check button widget needs a tkinter variable called BooleanVar() to store whether a specific box is checked. The value of this tkinter variable is retrieved using the .get() method. </p>
+<br>
+
+<h3>Radiobutton Widget</h3>
+<img src="radiobutton.jpg" width="200">
+<p>As the name implies, this is used to create radio buttons.</p>
+<example>
+import tkinter as tk
+ 
+root = tk.Tk()
+
+def changeDisplay():
+  display.configure(text=string.get())
+
+string=tk.StringVar()
+
+rad1 = tk.Radiobutton(root, text="Option 1", value=1, variable=string)
+rad2 = tk.Radiobutton(root, text="Option 2", value=2, variable=string)
+rad3 = tk.Radiobutton(root, text="Option 3", value=3, variable=string)
+
+
+display=tk.Label(root, text="Text will Change")
+
+bt=tk.Button(root, text="Submit", command=changeDisplay)
+
+
+rad1.pack()
+rad2.pack()
+rad3.pack()
+display.pack()
+bt.pack()
+
+root.mainloop()
+</example>
+<p>Keep in mind that StringVar() is needed to store the values of the radio button. </p>
+
+<br>
+
+<h3>Message Box</h3>
+
+<p>This widget is used to create popups.</p>
+<example>
+def clicked():
+    messagebox.showinfo("Message title", "Message content")
+ 
+btn = tk.Button(root,text="ENTER", command=clicked)
+btn.pack()
+</example>
+<br>

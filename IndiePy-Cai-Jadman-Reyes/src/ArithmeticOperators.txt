@@ -1,0 +1,55 @@
+<h1>Basic Operators</h1>
+<p>Operators are special symbols and words used to manipulate the value of the operands.</p>
+
+<br>
+<h5>Identifying Operators and Operands</h5>
+<example>
+z = x + y
+</example>
+<p>Consider the equation above. x, y, and z are variables. x and y are the operands while the = and + signs are the operators.</p>
+
+<br>
+<h3>Arithmetic Operators</h3>
+<p>These are operators used to perform mathematical operations such as addition, subtraction, multiplication, and others.</p>
+
+<br>
+<h5>PEMDAS Rule</h5>
+<p>Keep in mind the PEMDAS (Parenthesis, Exponent, Multiplication, Division, Addition, Subtraction) rule here. PEMDAS refers to the priority of mathematical operations with the leftmost as the most prioritized. As  such, expression/s inside parenthesis go first then, the ones with exponent operator, and so on forth.</p>
+
+<br>
+<img src="ArithmeticOperators.png">
+
+<br>
+<h5>SAMPLE CODE</h5>
+<example>
+#Initialization
+x = 7
+y = 2
+
+z = x + y
+print("Add: ", z)
+z = x - y
+print("Subtract: ", z)
+z = x * y
+print("Multiply: ", z)
+z = x / y
+print("Divide: ", z)
+z = x // y
+print("Floor Division: ", z)
+z = x % y
+print("Modulo: ", z)
+z = x ** y
+print("Power: ", z)
+</example>
+
+<h5>Output</h5>
+<example>
+Add: 9
+Subtract: 5
+Multiply: 14
+Divide: 3.5
+Floor Division: 3
+Modulo: 1
+Power: 49
+</example>
+<br>

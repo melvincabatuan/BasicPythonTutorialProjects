@@ -1,0 +1,162 @@
+﻿<h1>Sequence Functions</h1>
+<h5>Syntax</h5>
+<example>
+len(object)
+</example>
+<p>where object must be either a sequence or a collection.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+string = "Hello" 
+x = len(string)
+print(x)
+
+my_list = ["apple", "orange", "mango", ""]
+print(len(my_list))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+5
+4
+</example>
+<br>
+<p>Notice how "" is also counted as one item. This is because once it is declared, the program will reserve a space for it in the storage.</p>
+
+<br>
+<h3>min()</h3>
+<p>Returns the minimum or the item with the lowest value in an iterable. For strings, they are compared alphabetically based on their order in the ASCII Table.</p>
+
+<br>
+<h5>Syntax</h5>
+<p>There are two ways to use min():</p>
+<br>
+<example>
+min(iterable)
+</example>
+<p>where iterable is a sequence with one or more items to compare.</p>
+
+<br>
+<example>
+min(n1, n2, n3, …)
+</example>
+<p>where n1, n2, n3, … are items of similar data type to compare.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+x = min(1, 3, 6)	
+print(x)
+
+my_list = ["Jacky", "Jackie"]		
+print(min(my_list))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+1
+Jackie
+</example>
+<br>
+<p>Notice how Jackie is less than Jacky. This is due to i going first in the ASCII table. Since i goes first, i has a lower binary than y that goes later.</p>
+
+
+<br>
+<h3>max()</h3>
+<p>Returns the maximum or the item with the highest value in an iterable.</p>
+
+<br>
+<h5>Syntax</h5>
+<p>There are two ways to use max():</p>
+<br>
+<example>
+max(iterable)
+</example>
+<p>where iterable is a sequence with one or more items to compare.</p>
+
+<br>
+<example>
+max(n1, n2, n3, …)
+</example>
+<p>where n1, n2, n3, … are items of similar data type to compare.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+x = max(1, 3, 6)	
+print(x)
+
+my_list = ["Jacky", "Jackie"]		
+print(max(my_list))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+6
+Jacky
+</example>
+
+
+<br>
+<h3>range()</h3>
+<p>Returns a sequence of numbers within a given range.</p>
+
+<br>
+<h5>Syntax</h5>
+<example>
+range(start, stop, step)
+</example>
+<br>
+<p>Where:</p>
+<p>start is an integer specifying the start of the sequence. This is set to 0 be default and is optional.</p>
+<p>stop is an integer specifying the end of the sequence. The resulting sequence’s last number is always stop - 1. Because of the 0-based indexing, range is commonly used with its default start (0); thus, stop is not included.</p>
+<p>step is an integer specifying the incrementation. This is set to 1 be default and is optional.</p>
+
+<br>
+<h5>Example: Print single digit odd numbers</h5>
+<example>
+# Creates a sequence of numbers from 1 to 10 that increments by 2.
+x = range(1, 10, 2)
+
+# Prints each number in the sequence x.
+for num in x:
+    print(num)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+1
+3
+5
+7
+9
+</example>
+
+<br>
+<h5>Example: Using range() in a loop: Get the sum of the numbers from 1 to 10.</h5>
+<example>
+# Initializing sum.
+sum = 0
+
+# Create a sequence of numbers from 1 to 11 and loop over each number in it.
+for num in range(1, 11):
+    sum += num	# sum = sum + num
+
+print(sum)
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+55
+</example>
+
+<br>
+<h5>Sequence Function Sources</h5>
+<p>https://data-flair.training/blogs/python-sequence/ https://www.w3schools.com/python/ref_func_len.asp https://www.w3schools.com/python/ref_func_min.asp  https://www.w3schools.com/python/ref_func_max.asp  https://www.w3schools.com/python/ref_func_range.asp https://www.geeksforgeeks.org/python-range-function/ </p>
+<br>

@@ -1,0 +1,22 @@
+<h1>Quiz for Arithmetic and Assignment Operators</h1>
+
+<p>1. An if statement runs only when a _____ condition is satisfied.</p>
+<rb>a. previous
+<rb>b. preceding
+<rb>c. certain
+<c>c
+
+<br>
+<p>2. This statement is used when the _____ conditions are not true, therefore it will satisfy the elif statement instead.</p>
+<rb>a. previous
+<rb>b. preceding
+<rb>c. certain
+<c>a
+
+<br>
+<p>3. The else statement catches anything which isn't caught by the ______ conditions.</p>
+<rb>a. previous
+<rb>b. preceding
+<rb>c. certain
+<c>b
+

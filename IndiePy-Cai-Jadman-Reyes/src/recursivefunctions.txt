@@ -1,0 +1,51 @@
+<h1>Recursive Functions</h1>
+<h5>What is a Recursive Function?</h5>
+<p>A recursive function is a function that calls itself. To use this function, there must be a base case, a condition to determine if the program is completed, to prevent the function from calling itself infinitely.</p>
+<br>
+
+<h5>Factorial, An Example of a Recursive Function</h5>
+<p>In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:</p>
+<br>
+<p>n!=n x (n-1) x (n-2) x (n-3) … 1</p>
+<br>
+
+<p>We first define a function factorial(n).</p>
+
+<example>
+def factorial(n):
+    return n*factorial(n-1)
+</example>
+<br>
+<p>To visualize the statement above, we take factorial(5) as an example:</p>
+
+<example>
+factorial(5)=5*factorial(4)
+factorial(4)=4*factorial(3)
+factorial(3)=3*factorial(2)
+factorial(2)=2*factorial(1)
+factorial(1)=1*factorial(0)
+factorial(0)=0*factorial(-1)
+factorial(-1)=-1*factorial(-2)
+...
+</example>
+<br>
+
+<p>factorial(5) would multiply by itself decrementally. Mathematically speaking, 0! should be equal to 1. However, since a base case was not defined inside the program, the function would multiply by itself decrementally until infinity. A condition should be added to stop this.</p>
+
+<example>
+def factorial(n):
+    if x<=0:
+        return 1
+    else:
+        return n*factorial(n-1)
+</example>
+<br>
+<p>To visualize the code above:</p>
+<example>
+factorial(1)=1*factorial(0)  ===> 1*1 ===> 1
+factorial(2)=2*factorial(1)  ===> 2*1 ===> 2
+factorial(3)=3*factorial(2)  ===> 3*2 ===> 6
+factorial(4)=4*factorial(3)  ===> 4*6 ===> 24
+factorial(5)=5*factorial(4)  ===> 5*24 ===> 120
+</example>
+

@@ -1,0 +1,51 @@
+<h3>Challenge Exercise for Decision Statements</h3>
+
+<br>
+<p> 1. Canvas LMS contains a grading scheme with 70 as a passing mark, write a function that converts a raw grade  x ,  0.0≤x≤100.0  to its corresponding DLSU grade equivalent, {0.0, 1.0, ..., 3.5, 4.0}.</p>
+<p>The full list of grades: 4.0 100% to 97%, 3.5 <97 to 93, 3.0 <93 to 89, 2.5 <89 to 85, 2.0 <85 to 80, 1.5 <80 to 75, 1.0 <75 to 70, 0.0 <70 to 0</p>
+
+<br>
+<p>Sample Output: </p>
+<example>
+assert rawgrade(97) == 4.0
+assert rawgrade(93) == 3.5
+assert rawgrade(89) == 3.0
+assert rawgrade(85) == 2.5
+assert rawgrade(80) == 2.0
+assert rawgrade(75) == 1.5
+assert rawgrade(70) == 1.0
+assert rawgrade(65) == 0.0
+assert rawgrade(100) == 4.0
+assert rawgrade(98) == 4.0
+assert rawgrade(96.5) == 3.5
+assert rawgrade(94) == 3.5
+assert rawgrade(92.5) == 3.0
+assert rawgrade(90) == 3.0
+assert rawgrade(88.5) == 2.5
+assert rawgrade(86) == 2.5
+assert rawgrade(84.5) == 2.0
+assert rawgrade(81) == 2.0
+assert rawgrade(0) == 0.0
+</example>
+
+<hint>
+Use elif statements.
+</hint>
+
+<br>
+<p>2. Let p and q be propositions (a statement that can either be True or False). The conditional statement p → q is the proposition “if p, then q.” The conditional statement p → q is false when p is true and q is false, and true otherwise. Write a function that implements the conditional logical operation.</p>
+
+<br>
+<p>Sample Output: </p>
+<example>
+assert conditional(True, False) == False
+assert conditional(True, True) == True
+assert conditional(False, False) == True
+assert conditional(False, True) == True
+</example>
+
+<hint>
+Use if and else statements.
+</hint>
+ 
+

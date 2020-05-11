@@ -1,0 +1,124 @@
+<h1>Loop Statements</h1>
+<p>Loop statements let us execute a set of statements repeatedly.</p>
+
+<br>
+
+<h3>While Loop</h3>
+<p> While loop performs a set of statements repeatedly as long as the condition is True.</p>
+
+<br>
+
+<h6>Syntax</h6>
+
+<example>
+while condition:
+    statement/s
+</example>
+
+<br>
+<h6>Example: Print the first 5 multiples of 3 </h6>
+<example>
+num = 1
+while num <= 5:
+    print(num * 3)
+    num += 1    # Increments num
+</example>
+
+<p>Note that the loop will loop infinitely if we did not increment the num variable since the condition will remain true. </p>
+
+<br>
+<h6>Output:</h6>
+<example>
+3
+6
+9
+12
+15
+</example>
+
+<br>
+
+<h3>For Loop</h3>
+<p>For loop in Python differs from the for loop of other programming languages in a way that it is more often used for iterating over each item in a sequence. It is used to perform a set of statements once for each item in a sequence (e.g. list, tuple, dictionary, string, etc.). It can also be used to perform a set of statements repeatedly for a set amount.</p>
+
+<br> 
+
+<h6>Syntax</h6>
+
+<example>
+for variable in sequence:
+    statement/s
+</example>
+
+<p>Where variable is the nth item in the sequence. For example, in the first iteration, the variable would contain the first item in the sequence; in the second iteration, the variable would contain the value of the second item in the sequence; and so on.</p>
+
+<br>
+<h6>Example: Print “Hello World” five times</h6>
+
+<example>
+for i in range(5):
+    print("Hello World")
+</example>
+
+<p>The range() function creates a list of ranged numbers starting from 0 to the set number which is 5 in this case. We will talk more about this function in the Sequence Functions lesson.</p>
+
+<br>
+
+<h6>Output</h6>
+
+<example>
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+</example>
+
+<br>
+
+<h6>Example: Print each letter in “Hello” on a new line</h6>
+
+<example>
+for ltr in "Hello":
+    print(ltr)
+</example>
+
+<p>Strings are a sequence, meaning they are iterable. Hence why we can loop over each “item” or character in the string. We will know more about strings in the Strings lesson.</p>
+
+<br>
+<h6>Output</h6>
+
+<example>
+H
+e
+l
+l
+o
+</example>
+
+<br>
+
+<h3>Nested Loop </h3>
+<p>A loop inside another loop. Nested loop can have an unlimited number of nested loops inside them. The inner and outer loop can also be of different types. For example, we can have a for loop as an outer loop, then a while loop as an inner loop. </p>
+
+<br>
+
+<h6>Example</h6>
+
+<example>
+for i in ["Cat", "Dog"]:
+    for j in "AB":
+        print(i, j)
+</example>
+
+<br>
+
+<h6>Output</h6>
+
+<example>
+Cat A
+Cat B
+Dog A
+Dog B
+</example>
+<br>

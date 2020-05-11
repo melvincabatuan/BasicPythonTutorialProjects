@@ -1,0 +1,70 @@
+<h1>Sequence Functions Part I</h1>
+
+<h3>len()</h3>
+<p>Returns the “length” or the number of items/characters in an object specified inside the parenthesis.</p>
+
+<br>
+<h5>Syntax</h5>
+<example>
+len(object)
+</example>
+<p>where object must be either a sequence or a collection.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+string = "Hello" 
+x = len(string)
+print(x)
+
+my_list = ["apple", "orange", "mango", ""]
+print(len(my_list))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+5
+4
+</example>
+<br>
+<p>Notice how "" is also counted as one item. This is because once it is declared, the program will reserve a space for it in the storage.</p>
+
+<br>
+<h3>min()</h3>
+<p>Returns the minimum or the item with the lowest value in an iterable. For strings, they are compared alphabetically based on their order in the ASCII Table.</p>
+
+<br>
+<h5>Syntax</h5>
+<p>There are two ways to use min():</p>
+<br>
+<example>
+min(iterable)
+</example>
+<p>where iterable is a sequence with one or more items to compare.</p>
+
+<br>
+<example>
+min(n1, n2, n3, …)
+</example>
+<p>where n1, n2, n3, … are items of similar data type to compare.</p>
+
+<br>
+<h5>Example</h5>
+<example>
+x = min(1, 3, 6)	
+print(x)
+
+my_list = ["Jacky", "Jackie"]		
+print(min(my_list))
+</example>
+
+<br>
+<h5>Output</h5>
+<example>
+1
+Jackie
+</example>
+<br>
+<p>Notice how Jackie is less than Jacky. This is due to i going first in the ASCII table. Since i goes first, i has a lower binary than y that goes later.</p>
+<br>

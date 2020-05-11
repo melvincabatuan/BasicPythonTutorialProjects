@@ -1,0 +1,15 @@
+<h1>File Handling Challenge</h1>
+
+<p>1. Create a Python program to create a .txt file and write the following text in it:</p>
+<p>	Betty Botter bought some butter,</p>
+<p>	but she said the butter’s bitter.</p>
+<p>	If I put it in my batter, it will make my batter bitter.</p>
+<p>	But a bit of better butter will make my batter better,</p>
+<p>	so ‘twas better Betty Botter bought a bit of better butter.</p>
+<p>Remember to close the file to save it.</p>
+<hint>
+open() method automatically creates a new file if none exists. Use write() method for writing in a file.
+</hint>
+
+<br>
+<p>2. Open and read the text file you just made from #1 line by line. Store it into a list and display the text. Output should be one multiline string.</p>

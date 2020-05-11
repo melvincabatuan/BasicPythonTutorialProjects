@@ -1,0 +1,59 @@
+<h1>Try and Except</h1>
+<br>
+<h3>What are Try and Except?</h3>
+<p>Try and Except is used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program. The code that follows the except statement is the program's response to any exceptions in the preceeding try clause.</p>
+
+<br>
+<h3>Example:</h3>	
+
+<example>
+def self_dividing(n):
+    for d in [i for i in str(n) if i!="0"]:
+        if n % int(d) > 0:
+            return False
+    return True
+def divisibleByDigits(n):
+    """This function returns a list of numbers from 1 up to a given input number 
+    so that at each digits of the numbers divides itself.
+    """
+    try:
+        return [i for i in range(1,n+1) if self_dividing(i)]
+    
+    except:
+        return "Specify a numerical input"
+</example>
+
+
+<br>
+<h3>Output:</h3>
+<example>
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 20, 22, 24, 30]
+
+</example>
+
+<h3>Exception handling</h3>
+<p>To use exception handling in Python, the first step is you need to have a catch-all except clause. The words "try" and "except" are Python keywords and are used to catch exceptions. try-except) blocks The code within the try clause will be executed statement by statement.</p>
+
+<h3>Example</h3>
+<example>
+Try:
+ a=5 
+ b='0'   
+ print(a/b) 
+except: 
+ print('Some error occurred.') 
+ print("Out of try except blocks.")
+
+<h3>Output</h3>
+<example>
+Some error occured
+Out of try except blocks
+</example>
+
+<br>
+<h3>Why try/except is useful?</h3>
+<p>With try/except you can intercept those fatal runtime errors and perhaps recover. At the very least you can give a more user-readable diagnostic message such that even your end user can figure out what has gone wrong.Using try-except function is the most common and natural way of handling unexpected errors along with many exception handling constructs. </p>
+
+<br>
+<h3>References</h3>
+<p>https://www.tutorialsteacher.com/python/exception-handling-in-python, Module 6_ExceptionsTesting </p>

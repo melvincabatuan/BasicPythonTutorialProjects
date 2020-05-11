@@ -1,0 +1,13 @@
+<h1>Challenge Exercises For Functions</h1>
+<br>
+<p>1. Develop a function that checks if a number is divisible by another number. Let's call this number divisible(). The function should return display "True" if true, it should display "False" if not. If either of the parameters are non integers, it should display "False".</p>
+<hint> Hint: Use the Modulo Operator </hint>
+<br>
+<p>2. Develop a function that generates the first 30 fibonacci numbers starting from 0 and 1. Let’s call this function, fibonacci()</p>
+<hint> Hint: A fibonacci number is derived by adding its previous two terms. Use loops. </hint>
+<br>
+<p>3. Develop a function that finds and displays the area of a triangle. Let’s call this functio triangle(). Assume that the given sides are valid.  Display “Invalid” if one of the given sides are invalid.</p>
+<hint> Hint: Use Herron’s Formula </hint>
+<br>
+<p>4. Develop a function that converts a cipher text into a caesar cipher text. Assume  the given string is only alphanumeric characters. </p>
+<hint> Hint: Use dictionaries, zip() and loops. Watch out for case sensitivity. </hint>

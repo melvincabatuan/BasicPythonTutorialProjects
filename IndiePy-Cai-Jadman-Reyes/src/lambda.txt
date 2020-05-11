@@ -1,0 +1,24 @@
+<h1>The Lambda Function</h1>
+<p>Lambdas are small and anonymous functions. Meaning, they are functions that are made on the spot. </p>A lambda function could take any number of arguments, but it can only return one expression:</p>
+<br>
+<h5>Syntax</h5>
+<example>
+ lambda arguments : expression
+</example>
+<br>
+
+<h5>Examples</h5>
+<example>
+x = lambda a : a + 10
+print(x(5))
+
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
+</example>
+<br>
+
+<h5>Output</h5>
+<example>
+15
+13
+</example>

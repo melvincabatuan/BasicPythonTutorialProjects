@@ -1,0 +1,79 @@
+<h1>Challenge Exercises For Sequences</h1>
+
+<p>1. John made a list of his favorite foods. Let this list be x. Katie also made a list of her favorite foods. Let this be y.</p>
+<br>
+<p>x=["mango", "strawberry", "cake", "burger", "steak", "vegetables"]</p>
+<p>y=["strawberry", "chicken", "fries", "mango", "ice cream"]</p>
+<p>Using set operations, write a python script that finds</p>
+<p>a)what common favorite foods they have</p>
+<p>b)what's mutually exclusive for each of them</p>
+<hint> Hint: Use Set Operations </hint>
+<br>
+
+<p> 2. A caesar cipher is derived by shifting each character by 1 unit to the right. Refer to the figure below. Generate a dictionary that takes in a character and converts it into cipher text.</p>
+<hint> Review on Dictionaries, String Operations and Loops</hint>
+<p>Sample:</p>
+<p>Given: The quick brown fox jumped over the window 1234567890</p>
+<p>Output: </p>
+<example>
+Uif rvjdl cspxo gpy kvnqfe pwfs uif xjoepx 1234567890
+</example>
+
+<br>
+
+<p> 3. Let x be an empty list. Generate a list of the first 20 fibonnacci numbers starting from [0,1] and then, put it in list x and display it. </p>
+<hint> Definition of Fibonacci Sequence</hint>
+<p>Sample</p>
+<p>Output: </p>
+<example>
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181]
+</example>
+<br>
+<p>4. Create a program that prints a list of strings forming a border when printed line by line. The border is made up of a specific given character with specific given side length. The border will be a multiline string.</p>
+
+<hint>
+All sides of the border have the same number of characters. Device a formula for the middle borders with width.
+</hint>
+
+<br>
+<p>Sample 1:</p>
+<p>Given: character = *,  width = 7</p>
+<p>Output:</p>
+<example>
+["*****", "*   *", "*   *", "*   *", "*****"]
+</example>
+
+<br>
+<p>Output if printed line by line:</p>
+<example>
+*****
+*   *
+*   *
+*   *
+*****
+</example>
+
+<br>
+<p>Sample 2:</p>
+<p>Given: character = +, width = 7</p>
+<p>Output:</p>
+<example>
+["+++++++", "+     +", "+     +", "+     +", "+     +", "+     +", "+++++++"]
+</example>
+
+<br>
+<p>Reference: Cabatuan, M. (n.d.). LBYCPA1 Module 4[ipynb].</p>
+
+<br>
+<p>5. Write a Python program to generate and print a list except for the first 5 elements, where the values are square of numbers between 1 and 30 (both included), with list comprehension. </p>
+<hint>
+Leave the first 5 elements part for printing. Use slicing for it.
+</hint>
+<br>
+<p>Output: </p>
+<example>
+[36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
+</example>
+
+<br>
+<p>Reference: https://www.w3resource.com/python-exercises/list/python-data-type-list-exercise-17.php</p>

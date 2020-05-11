@@ -1,0 +1,26 @@
+<h1>Tkinter</h1>
+<br>
+<h3>What is tkinter?</h3>
+<p>Tkinter is an inbuilt python library that lets you develop graphical user interfaces (GUIS).</p>
+<br>
+<h3>Why GUIS?</h3>
+<p>You could make your code graphical instead of text based. These GUIS help users interact with their computers.</p>
+<p>Examples of GUIS include: Windows Operating System, File Explorer, Notepad, Word</p>
+<br>
+<h3>Tkinter Basics</h3>
+
+<example>
+import tkinter
+ 
+root = tkinter.Tk()
+
+#to make widgets visible, you need to pack it
+ 
+root.mainloop()
+</example>
+<img src="blanktkinter.jpg">
+<p>The output</p>
+<br>
+<p>The above statement is essentially the skeleton of every tkinter application. No tkinter application can run without it.</p>
+<p>Import tkinter to start using the library. Then call the Tk() and mainloop() method. Note that Nothing is displayed since there isn't a widget packed yet.</p>
+<br>

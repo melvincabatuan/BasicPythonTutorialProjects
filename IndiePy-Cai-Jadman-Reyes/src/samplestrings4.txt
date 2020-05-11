@@ -1,0 +1,26 @@
+<h>Quiz for Strings Part IV</h>
+
+<p>1. Given x = "Kate" and y = 5. The following are different ways to format strings except:</p>
+<rb>a. print("{0} has {1} pets.".format(x, y))
+<rb>b. print(f"%x has %y pets.")
+<rb>c. print(f"{x} has {y} pets.")
+<rb>d. print("%s has %s pets." % (x, y)) 
+<c>b
+
+
+<br>
+<p>2. Given x = "Kate" and y = 5. What does print(f"{x} has {y} pets.") output? </p>
+<enter>
+<c>Kate has 5 pets.
+
+
+<br>
+<p>3. Following up with the previous question, one of Kate’s pets gave birth to 5 little puppies. Thus, we want to add 5 to the number of pets (y). What type of string formatting is best used for doing such? </p>
+<rb>a. % operator
+<rb>b. str.format() function
+<rb>c. f-strings
+<rb>d. none of the above
+<c>c
+
+
+
