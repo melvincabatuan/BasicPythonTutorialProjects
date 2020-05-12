@@ -1,0 +1,1 @@
+{'username': 'basic', 'password': '123', 'pretest_score': '1', 'mode': 'easy', 'Intro': 'done', 'Basic': 'done', 'Function': 'done', 'Modules': 'done', 'Numpy': 'done', 'Boolean': 'done', 'Sequences': 'done', 'Strings': 'done', 'Dictionary': 'done', 'Exceptions': 'done', 'Gui': 'done', 'Final': 'done'}

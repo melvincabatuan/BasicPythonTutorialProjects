@@ -1,0 +1,1 @@
+{'username': 'felix', 'password': '123', 'pretest_score': '0', 'mode': 'easy', 'Boolean': 'done', 'Function': 'done', 'Gui': 'done', 'Final': 'done', 'Strings': 'done'}

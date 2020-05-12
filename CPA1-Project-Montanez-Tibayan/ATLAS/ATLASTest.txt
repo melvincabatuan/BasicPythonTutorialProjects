@@ -1,0 +1,1 @@
+{"username" :"ATLASTest", "password" :"123456","pretest_score":"3", "mode" : "easy", "Intro" : "done", "Basic" : "undone", "Function" : "undone", "Modules" : "undone", "Numpy" : "undone", "Boolean" : "undone", "Sequences" : "undone", "Strings" : "undone", "Dictionary" : "undone", "Exceptions" : "undone", "Gui" : "undone"}

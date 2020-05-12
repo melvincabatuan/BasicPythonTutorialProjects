@@ -1,0 +1,1 @@
+{"username" :"test77", "password" :"123","pretest_score":"1", "mode" : "easy", "Intro" : "done", "Basic" : "undone", "Function" : "undone", "Modules" : "undone", "Numpy" : "undone", "Boolean" : "undone", "Sequences" : "undone", "Strings" : "undone", "Dictionary" : "undone", "Exceptions" : "undone", "Gui" : "undone"}

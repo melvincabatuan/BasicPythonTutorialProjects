@@ -1,0 +1,1 @@
+{"username" :"ATLAS", "password" :"ATLASA1234","pretest_score":"5", "mode" : "medium", "Intro" : "done", "Basic" : "done", "Function" : "done", "Modules" : "done", "Numpy" : "done", "Boolean" : "done", "Sequences" : "undone", "Strings" : "undone", "Dictionary" : "undone", "Exceptions" : "undone", "Gui" : "undone"}

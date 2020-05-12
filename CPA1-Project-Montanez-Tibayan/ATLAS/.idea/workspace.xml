@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3110602-2e73-43c6-9297-8c82e732abc7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="5eccd2a3-0618-4a41-bc25-ca06e0a23343" />
+  <component name="ProjectId" id="1aOQKGRddMxeW5ZwwsGZEtm3lGG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.ATLAS">
+    <configuration name="ATLAS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\asus\Anaconda3\envs\untitled\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ATLAS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log in (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\asus\Anaconda3\envs\untitled\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../GUI-20200427T114943Z-001/GUI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../GUI-20200427T114943Z-001/GUI/log in.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log in" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\asus\Anaconda3\envs\untitled\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log in.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\asus\Anaconda3\envs\untitled\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.log in" />
+      <item itemvalue="Python.proj" />
+      <item itemvalue="Python.tester" />
+      <item itemvalue="Python.log in (1)" />
+      <item itemvalue="Python.ATLAS" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ATLAS" />
+        <item itemvalue="Python.log in (1)" />
+        <item itemvalue="Python.log in" />
+        <item itemvalue="Python.proj" />
+        <item itemvalue="Python.tester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3110602-2e73-43c6-9297-8c82e732abc7" name="Default Changelist" comment="" />
+      <created>1586604094947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586604094947</updated>
+      <workItem from="1587988365724" duration="1925000" />
+      <workItem from="1587990364641" duration="1705000" />
+      <workItem from="1587992160985" duration="369000" />
+      <workItem from="1587992549054" duration="2879000" />
+      <workItem from="1588182931210" duration="1001000" />
+      <workItem from="1588233598170" duration="61923000" />
+      <workItem from="1588451921728" duration="41269000" />
+      <workItem from="1588591981854" duration="5482000" />
+      <workItem from="1588625455939" duration="6142000" />
+      <workItem from="1588876254868" duration="410000" />
+      <workItem from="1588876786232" duration="1927000" />
+      <workItem from="1588884837368" duration="226000" />
+      <workItem from="1588885084364" duration="235000" />
+      <workItem from="1588885350715" duration="163000" />
+      <workItem from="1589001527672" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="679" y="134" key="#ATLAS" timestamp="1589001587927">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#ATLAS/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1589001587927" />
+    <state x="648" y="154" key="#basic_module" timestamp="1588279769597">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="648" y="154" key="#basic_module/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588279769597" />
+    <state x="-1727" y="143" key="#basic_test" timestamp="1588548191006">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1727" y="143" key="#basic_test/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588548191006" />
+    <state x="199" y="138" key="#basic_test/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588537296332" />
+    <state x="0" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588656645632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588656645632" />
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587989901777" />
+    <state x="678" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588269025372">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="678" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588269025372" />
+    <state x="679" y="134" key="#dfs_module" timestamp="1588392557702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#dfs_module/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588392557702" />
+    <state x="199" y="138" key="#dfs_test" timestamp="1588625726122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="138" key="#dfs_test/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588625726122" />
+    <state x="679" y="134" key="#duplicateloign" timestamp="1588545204134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#duplicateloign/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588545204134" />
+    <state x="679" y="134" key="#func_test" timestamp="1588548105412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#func_test/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588548105412" />
+    <state x="184" y="158" key="#functions_module" timestamp="1588329192345">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="184" y="158" key="#functions_module/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588329192345" />
+    <state x="199" y="138" key="#gui_module" timestamp="1587991907153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="138" key="#gui_module/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587991907153" />
+    <state x="-1727" y="143" key="#gui_test" timestamp="1588548178162">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1727" y="143" key="#gui_test/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588548178162" />
+    <state x="199" y="138" key="#gui_test/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588452274772" />
+    <state x="199" y="138" key="#gui_test/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587991924951" />
+    <state x="648" y="154" key="#intro_module" timestamp="1588269046250">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="648" y="154" key="#intro_module/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588269046250" />
+    <state x="679" y="134" key="#log_in" timestamp="1587988439799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#log_in/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587988439799" />
+    <state x="-1272" y="154" key="#log_in_(1)" timestamp="1588885370057">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1272" y="154" key="#log_in_(1)/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588885370057" />
+    <state x="-1272" y="154" key="#modyul_module" timestamp="1588357463166">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1272" y="154" key="#modyul_module/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588357463166" />
+    <state x="199" y="138" key="#modyul_test" timestamp="1588552330978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="138" key="#modyul_test/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588552330978" />
+    <state x="679" y="134" key="#numpy_module" timestamp="1588480678258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#numpy_module/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588480678258" />
+    <state x="199" y="138" key="#numpy_test" timestamp="1588633816155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="138" key="#numpy_test/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588633816155" />
+    <state x="679" y="134" key="#proj" timestamp="1588876389280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="134" key="#proj/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588876389280" />
+    <state x="199" y="138" key="#sequence_module" timestamp="1588374911524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="138" key="#sequence_module/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588374911524" />
+    <state x="745" y="144" key="#sequence_test" timestamp="1588592189479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="745" y="144" key="#sequence_test/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588592189479" />
+    <state x="199" y="138" key="#tester" timestamp="1587992354602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="138" key="#tester/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992354602" />
+    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1588625473429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="252" y="289" key="FileChooserDialogImpl/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588233768446" />
+    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588625473429" />
+    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992017872" />
+    <state width="1877" height="63" key="GridCell.Tab.0.bottom" timestamp="1589001612882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="119" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588859336863" />
+    <state width="883" height="66" key="GridCell.Tab.0.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588333453791" />
+    <state width="607" height="65" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588592209844" />
+    <state width="1877" height="63" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1589001612882" />
+    <state width="914" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.40.1920.1040@-1920.40.1920.1040" timestamp="1588354322028" />
+    <state width="914" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.40.1920.1040@0.0.1920.1040" timestamp="1588347358349" />
+    <state width="914" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1588347666381" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992530149" />
+    <state width="1877" height="63" key="GridCell.Tab.0.center" timestamp="1589001612882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="119" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588859336863" />
+    <state width="883" height="66" key="GridCell.Tab.0.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588333453791" />
+    <state width="607" height="65" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588592209844" />
+    <state width="1877" height="63" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1589001612882" />
+    <state width="914" height="66" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.40.1920.1040@-1920.40.1920.1040" timestamp="1588354322028" />
+    <state width="914" height="66" key="GridCell.Tab.0.center/0.0.1920.1040/1920.40.1920.1040@0.0.1920.1040" timestamp="1588347358349" />
+    <state width="914" height="66" key="GridCell.Tab.0.center/0.0.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1588347666381" />
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992530149" />
+    <state width="1877" height="63" key="GridCell.Tab.0.left" timestamp="1589001612882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="119" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588859336863" />
+    <state width="883" height="66" key="GridCell.Tab.0.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588333453791" />
+    <state width="607" height="65" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588592209843" />
+    <state width="1877" height="63" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1589001612882" />
+    <state width="914" height="66" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.40.1920.1040@-1920.40.1920.1040" timestamp="1588354322028" />
+    <state width="914" height="66" key="GridCell.Tab.0.left/0.0.1920.1040/1920.40.1920.1040@0.0.1920.1040" timestamp="1588347358349" />
+    <state width="914" height="66" key="GridCell.Tab.0.left/0.0.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1588347666380" />
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992530149" />
+    <state width="1877" height="63" key="GridCell.Tab.0.right" timestamp="1589001612882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="119" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588859336863" />
+    <state width="883" height="66" key="GridCell.Tab.0.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588333453791" />
+    <state width="607" height="65" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588592209844" />
+    <state width="1877" height="63" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1589001612882" />
+    <state width="914" height="66" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.40.1920.1040@-1920.40.1920.1040" timestamp="1588354322028" />
+    <state width="914" height="66" key="GridCell.Tab.0.right/0.0.1920.1040/1920.40.1920.1040@0.0.1920.1040" timestamp="1588347358349" />
+    <state width="914" height="66" key="GridCell.Tab.0.right/0.0.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1588347666381" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992530149" />
+    <state width="938" height="346" key="GridCell.Tab.1.bottom" timestamp="1588885064692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588692838498" />
+    <state width="883" height="362" key="GridCell.Tab.1.bottom/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588289825980" />
+    <state width="883" height="362" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588354411631" />
+    <state width="938" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588885064692" />
+    <state width="914" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992075914" />
+    <state width="938" height="346" key="GridCell.Tab.1.center" timestamp="1588885064692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588692838498" />
+    <state width="883" height="362" key="GridCell.Tab.1.center/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588289825980" />
+    <state width="883" height="362" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588354411631" />
+    <state width="938" height="346" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588885064692" />
+    <state width="914" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992075914" />
+    <state width="938" height="346" key="GridCell.Tab.1.left" timestamp="1588885064691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588692838498" />
+    <state width="883" height="362" key="GridCell.Tab.1.left/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588289825980" />
+    <state width="883" height="362" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588354411631" />
+    <state width="938" height="346" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588885064691" />
+    <state width="914" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992075914" />
+    <state width="938" height="346" key="GridCell.Tab.1.right" timestamp="1588885064692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588692838498" />
+    <state width="883" height="362" key="GridCell.Tab.1.right/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588289825980" />
+    <state width="883" height="362" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588354411631" />
+    <state width="938" height="346" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588885064692" />
+    <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992075914" />
+    <state x="0" y="166" key="SettingsEditor" timestamp="1587991022973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="166" key="SettingsEditor/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587991022973" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588356852008">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588356852008" />
+    <state x="531" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1589001527907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="425" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588858125283" />
+    <state x="514" y="249" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588233604256" />
+    <state x="-1406" y="249" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588625455776" />
+    <state x="531" y="240" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1589001527907" />
+    <state x="531" y="240" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1587992564279" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1588596329364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="220" y="-26" width="1813" height="794" maximized="true" key="dock-window-1/0.0.1920.1040/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588592210431" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588596329364" />
+    <state x="105" y="183" width="672" height="518" key="search.everywhere.popup" timestamp="1588686271156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="105" y="183" width="672" height="518" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588686271156" />
+    <state x="127" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080/1982.0.1858.1080@0.0.1858.1080" timestamp="1588329672876" />
+    <state x="131" y="231" width="695" height="653" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1858.1080@0.0.1920.1040" timestamp="1588544022332" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic_module.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic_test.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ATLAS$ATLAS.coverage" NAME="ATLAS Coverage Results" MODIFIED="1589001592898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GUI$proj.coverage" NAME="proj Coverage Results" MODIFIED="1588876395233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GuiFinal$log_in.coverage" NAME="log in Coverage Results" MODIFIED="1588885176316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GuiFinal$log_in__1_.coverage" NAME="log in (1) Coverage Results" MODIFIED="1588885505615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../GUI-20200427T114943Z-001/GUI" />
+  </component>
+</project>
